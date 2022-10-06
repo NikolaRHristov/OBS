@@ -470,7 +470,7 @@
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
 			"settings": {
-				"file": "D:/Developer/app/nikolarhristov/OBS/img/GOOD NIGHT STREAM Light.png"
+				"file": "D:/Developer/app/nikolaxhristov/OBS/img/GOOD NIGHT STREAM Light.png"
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
@@ -502,7 +502,7 @@
 					"push-to-talk-delay": 0,
 					"settings": {
 						"color": 4294967295,
-						"image_path": "D:/Developer/app/nikolarhristov/OBS/img/webcam-clip-right.png",
+						"image_path": "D:/Developer/app/nikolaxhristov/OBS/img/webcam-clip-right.png",
 						"opacity": 1,
 						"stretch": true,
 						"type": "mask_color_filter.effect"
@@ -570,7 +570,7 @@
 					"push-to-talk-delay": 0,
 					"settings": {
 						"color": 4294967295,
-						"image_path": "D:/Developer/app/nikolarhristov/OBS/img/webcam-clip-right.png",
+						"image_path": "D:/Developer/app/nikolaxhristov/OBS/img/webcam-clip-right.png",
 						"opacity": 1,
 						"stretch": false,
 						"type": "mask_color_filter.effect"
@@ -703,7 +703,7 @@
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
 			"settings": {
-				"file": "D:/Developer/app/nikolarhristov/obs/img/Golden Ratio Red.png",
+				"file": "D:/Developer/app/nikolaxhristov/obs/img/Golden Ratio Red.png",
 				"linear_alpha": false
 			},
 			"sync": 0,
@@ -729,7 +729,7 @@
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
 			"settings": {
-				"file": "D:/Developer/app/nikolarhristov/obs/img/Golden Ratio Blue.png",
+				"file": "D:/Developer/app/nikolaxhristov/obs/img/Golden Ratio Blue.png",
 				"linear_alpha": false
 			},
 			"sync": 0,
@@ -1275,7 +1275,7 @@
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
 			"settings": {
-				"file": "D:/Developer/app/nikolarhristov/OBS/img/BRB Dark.png"
+				"file": "D:/Developer/app/nikolaxhristov/OBS/img/BRB Dark.png"
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
@@ -1300,7 +1300,7 @@
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
 			"settings": {
-				"file": "D:/Developer/app/nikolarhristov/OBS/img/webcam-border-left.png",
+				"file": "D:/Developer/app/nikolaxhristov/OBS/img/webcam-border-left.png",
 				"linear_alpha": true,
 				"undo_sname": "Border 1"
 			},
@@ -1327,7 +1327,7 @@
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
 			"settings": {
-				"file": "D:/Developer/app/nikolarhristov/OBS/img/webcam-border-right.png",
+				"file": "D:/Developer/app/nikolaxhristov/OBS/img/webcam-border-right.png",
 				"linear_alpha": true,
 				"undo_sname": "Border 2"
 			},
@@ -1470,7 +1470,7 @@
 					"push-to-talk": false,
 					"push-to-talk-delay": 0,
 					"settings": {
-						"image_path": "D:/Developer/app/nikolarhristov/OBS/img/webcam-clip-left.png"
+						"image_path": "D:/Developer/app/nikolaxhristov/OBS/img/webcam-clip-left.png"
 					},
 					"sync": 0,
 					"versioned_id": "mask_filter_v2",
@@ -1520,7 +1520,7 @@
 					"push-to-talk": false,
 					"push-to-talk-delay": 0,
 					"settings": {
-						"image_path": "D:/Developer/app/nikolarhristov/OBS/img/webcam-clip-right.png",
+						"image_path": "D:/Developer/app/nikolaxhristov/OBS/img/webcam-clip-right.png",
 						"stretch": false
 					},
 					"sync": 0,
@@ -2335,7 +2335,7 @@
 					"push-to-talk": false,
 					"push-to-talk-delay": 0,
 					"settings": {
-						"image_path": "D:/Developer/app/nikolarhristov/OBS/img/webcam-clip-right.png",
+						"image_path": "D:/Developer/app/nikolaxhristov/OBS/img/webcam-clip-right.png",
 						"stretch": false
 					},
 					"sync": 0,
@@ -2421,7 +2421,7 @@
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
 			"settings": {
-				"file": "D:/Developer/app/nikolarhristov/OBS/img/webcam-border-right-dark.png",
+				"file": "D:/Developer/app/nikolaxhristov/OBS/img/webcam-border-right-dark.png",
 				"linear_alpha": true,
 				"undo_sname": "Border 2"
 			},
@@ -2454,7 +2454,7 @@
 					"push-to-talk": false,
 					"push-to-talk-delay": 0,
 					"settings": {
-						"image_path": "D:/Developer/app/nikolarhristov/OBS/img/webcam-clip-left.png"
+						"image_path": "D:/Developer/app/nikolaxhristov/OBS/img/webcam-clip-left.png"
 					},
 					"sync": 0,
 					"versioned_id": "mask_filter_v2",
@@ -2539,7 +2539,7 @@
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
 			"settings": {
-				"file": "D:/Developer/app/nikolarhristov/OBS/img/webcam-border-left-dark.png",
+				"file": "D:/Developer/app/nikolaxhristov/OBS/img/webcam-border-left-dark.png",
 				"linear_alpha": true,
 				"undo_sname": "Border 1"
 			},
@@ -2638,7 +2638,7 @@
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
 			"settings": {
-				"file": "D:/Developer/app/nikolarhristov/OBS/img/BRB Light.png"
+				"file": "D:/Developer/app/nikolaxhristov/OBS/img/BRB Light.png"
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
@@ -2663,7 +2663,7 @@
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
 			"settings": {
-				"file": "D:/Developer/app/nikolarhristov/OBS/img/GOOD NIGHT STREAM Dark.png"
+				"file": "D:/Developer/app/nikolaxhristov/OBS/img/GOOD NIGHT STREAM Dark.png"
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
