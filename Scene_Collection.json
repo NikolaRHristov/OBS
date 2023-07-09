@@ -47,10 +47,7 @@
 			"ignoreIdleWindows": [],
 			"ignoreWindows": [],
 			"interval": 50,
-			"macroActionConditionSplitterPosition": [
-				{ "pos": 0 },
-				{ "pos": 0 }
-			],
+			"macroActionConditionSplitterPosition": [{ "pos": 0 }, { "pos": 0 }],
 			"macroListMacroEditSplitterPosition": [{ "pos": 0 }, { "pos": 0 }],
 			"macroProperties": {
 				"highlightActions": true,
@@ -423,14 +420,10 @@
 			"enabled": true,
 			"flags": 2,
 			"hotkeys": {
-				"libobs.mute": [
-					{ "alt": true, "command": true, "key": "OBS_KEY_C" }
-				],
+				"libobs.mute": [{ "alt": true, "command": true, "key": "OBS_KEY_C" }],
 				"libobs.push-to-mute": [],
 				"libobs.push-to-talk": [],
-				"libobs.unmute": [
-					{ "alt": true, "command": true, "key": "OBS_KEY_V" }
-				]
+				"libobs.unmute": [{ "alt": true, "command": true, "key": "OBS_KEY_V" }]
 			},
 			"id": "wasapi_input_capture",
 			"mixers": 193,
