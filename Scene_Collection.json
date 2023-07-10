@@ -16,7 +16,7 @@
 			"ServerPort": 55555,
 			"active": false,
 			"adjustActiveTransitionType": true,
-			"audioFallbackDuration": 0.0,
+			"audioFallbackDuration": 0,
 			"audioFallbackEnable": false,
 			"audioFallbackScene": "",
 			"audioFallbackTargetType": 0,
@@ -25,7 +25,7 @@
 			"audioTabPos": 11,
 			"autoStartEvent": 3,
 			"connections": [],
-			"cooldown": 0.0,
+			"cooldown": 0,
 			"cooldownUnit": 0,
 			"defTransitionDelay": 0,
 			"defaultTransitions": [],
@@ -48,10 +48,21 @@
 			"ignoreWindows": [],
 			"interval": 50,
 			"macroActionConditionSplitterPosition": [
-				{ "pos": 0 },
-				{ "pos": 0 }
+				{
+					"pos": 0
+				},
+				{
+					"pos": 0
+				}
 			],
-			"macroListMacroEditSplitterPosition": [{ "pos": 0 }, { "pos": 0 }],
+			"macroListMacroEditSplitterPosition": [
+				{
+					"pos": 0
+				},
+				{
+					"pos": 0
+				}
+			],
 			"macroProperties": {
 				"highlightActions": true,
 				"highlightConditions": true,
@@ -68,7 +79,7 @@
 							"id": "scene_switch",
 							"scene": "Twitch Stream Blurred",
 							"sceneType": 0,
-							"seconds": 0.0,
+							"seconds": 0,
 							"transition": "Cut",
 							"transitionType": 0
 						}
@@ -78,7 +89,7 @@
 							"collapsed": true,
 							"durationModifier": {
 								"displayUnit": 0,
-								"seconds": 0.0,
+								"seconds": 0,
 								"time_constraint": 0
 							},
 							"focus": false,
@@ -93,7 +104,7 @@
 							"collapsed": true,
 							"durationModifier": {
 								"displayUnit": 0,
-								"seconds": 0.0,
+								"seconds": 0,
 								"time_constraint": 0
 							},
 							"focus": false,
@@ -108,7 +119,7 @@
 							"collapsed": true,
 							"durationModifier": {
 								"displayUnit": 0,
-								"seconds": 0.0,
+								"seconds": 0,
 								"time_constraint": 0
 							},
 							"focus": false,
@@ -123,7 +134,7 @@
 							"collapsed": true,
 							"durationModifier": {
 								"displayUnit": 0,
-								"seconds": 0.0,
+								"seconds": 0,
 								"time_constraint": 0
 							},
 							"focus": false,
@@ -153,7 +164,7 @@
 							"id": "scene_switch",
 							"scene": "Twitch Stream",
 							"sceneType": 0,
-							"seconds": 0.0,
+							"seconds": 0,
 							"transition": "Cut",
 							"transitionType": 0
 						}
@@ -163,7 +174,7 @@
 							"collapsed": true,
 							"durationModifier": {
 								"displayUnit": 0,
-								"seconds": 0.0,
+								"seconds": 0,
 								"time_constraint": 0
 							},
 							"focus": false,
@@ -178,7 +189,7 @@
 							"collapsed": true,
 							"durationModifier": {
 								"displayUnit": 0,
-								"seconds": 0.0,
+								"seconds": 0,
 								"time_constraint": 0
 							},
 							"focus": false,
@@ -193,7 +204,7 @@
 							"collapsed": true,
 							"durationModifier": {
 								"displayUnit": 0,
-								"seconds": 0.0,
+								"seconds": 0,
 								"time_constraint": 0
 							},
 							"focus": false,
@@ -208,7 +219,7 @@
 							"collapsed": true,
 							"durationModifier": {
 								"displayUnit": 0,
-								"seconds": 0.0,
+								"seconds": 0,
 								"time_constraint": 0
 							},
 							"focus": false,
@@ -233,7 +244,7 @@
 			"mediaSwitches": [],
 			"mediaTabPos": 5,
 			"networkTabPos": 13,
-			"noMatchDelay": 0.0,
+			"noMatchDelay": 0,
 			"noMatchDelayUnit": 0,
 			"non_matching_scene": "",
 			"pauseEntries": [],
@@ -343,17 +354,33 @@
 	"saved_projectors": [],
 	"scaling_enabled": false,
 	"scaling_level": 0,
-	"scaling_off_x": 0.0,
-	"scaling_off_y": 0.0,
+	"scaling_off_x": 0,
+	"scaling_off_y": 0,
 	"scene_order": [
-		{ "name": "Twitch Stream Blurred" },
-		{ "name": "Twitch Stream" },
-		{ "name": "BRB" },
-		{ "name": "GOODNIGHT STREAM" },
-		{ "name": "Golden Grid" },
-		{ "name": "_Audio" },
-		{ "name": "_Light" },
-		{ "name": "_Dark" }
+		{
+			"name": "Twitch Stream Blurred"
+		},
+		{
+			"name": "Twitch Stream"
+		},
+		{
+			"name": "BRB"
+		},
+		{
+			"name": "GOODNIGHT STREAM"
+		},
+		{
+			"name": "Golden Grid"
+		},
+		{
+			"name": "_Audio"
+		},
+		{
+			"name": "_Light"
+		},
+		{
+			"name": "_Dark"
+		}
 	],
 	"sources": [
 		{
@@ -384,7 +411,7 @@
 			},
 			"sync": -950000000,
 			"versioned_id": "wasapi_output_capture",
-			"volume": 0.063213050365447998
+			"volume": 0.063213050365448
 		},
 		{
 			"balance": 0.5,
@@ -424,12 +451,20 @@
 			"flags": 2,
 			"hotkeys": {
 				"libobs.mute": [
-					{ "alt": true, "command": true, "key": "OBS_KEY_C" }
+					{
+						"alt": true,
+						"command": true,
+						"key": "OBS_KEY_C"
+					}
 				],
 				"libobs.push-to-mute": [],
 				"libobs.push-to-talk": [],
 				"libobs.unmute": [
-					{ "alt": true, "command": true, "key": "OBS_KEY_V" }
+					{
+						"alt": true,
+						"command": true,
+						"key": "OBS_KEY_V"
+					}
 				]
 			},
 			"id": "wasapi_input_capture",
@@ -449,7 +484,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "wasapi_input_capture",
-			"volume": 0.0056442590430378914
+			"volume": 0.005644259043037891
 		},
 		{
 			"balance": 0.5,
@@ -474,7 +509,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -509,7 +544,7 @@
 					},
 					"sync": 0,
 					"versioned_id": "mask_filter_v2",
-					"volume": 1.0
+					"volume": 1
 				}
 			],
 			"flags": 0,
@@ -542,7 +577,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "browser_source",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -577,7 +612,7 @@
 					},
 					"sync": 0,
 					"versioned_id": "mask_filter_v2",
-					"volume": 1.0
+					"volume": 1
 				}
 			],
 			"flags": 0,
@@ -593,7 +628,9 @@
 			"muted": true,
 			"name": "Webcam Right",
 			"prev_ver": 469762049,
-			"private_settings": { "mixer_hidden": true },
+			"private_settings": {
+				"mixer_hidden": true
+			},
 			"push-to-mute": false,
 			"push-to-mute-delay": 0,
 			"push-to-talk": false,
@@ -619,7 +656,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "dshow_input",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -659,7 +696,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "browser_source",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -679,10 +716,12 @@
 			"push-to-mute-delay": 0,
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
-			"settings": { "monitor": 0 },
+			"settings": {
+				"monitor": 0
+			},
 			"sync": 0,
 			"versioned_id": "monitor_capture",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -708,7 +747,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -734,7 +773,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -768,7 +807,10 @@
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -776,23 +818,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 2,
 						"locked": false,
 						"name": "Golden Grid Red",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -800,23 +855,33 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 1,
 						"locked": false,
 						"name": "Golden Grid Blue",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					}
 				]
 			},
 			"sync": 0,
 			"versioned_id": "scene",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -826,7 +891,11 @@
 			"flags": 0,
 			"hotkeys": {
 				"OBSBasic.SelectScene": [
-					{ "alt": true, "command": true, "key": "OBS_KEY_X" }
+					{
+						"alt": true,
+						"command": true,
+						"key": "OBS_KEY_X"
+					}
 				],
 				"libobs.hide_scene_item.Golden Grid": [],
 				"libobs.hide_scene_item.Main Monitor": [],
@@ -858,7 +927,10 @@
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -866,23 +938,39 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 1,
 						"locked": true,
 						"name": "Main Monitor",
-						"pos": { "x": 0.0, "y": 0.0 },
-						"private_settings": { "color": "", "color-preset": 9 },
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 9
+						},
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 1920.0, "y": 1080.0 },
+						"bounds": {
+							"x": 1920,
+							"y": 1080
+						},
 						"bounds_align": 0,
 						"bounds_type": 1,
 						"crop_bottom": 0,
@@ -890,23 +978,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 63,
 						"locked": true,
 						"name": "_Light",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": false
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -914,23 +1015,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 64,
 						"locked": true,
 						"name": "_Dark",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -938,23 +1052,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 67,
 						"locked": false,
 						"name": "_Audio",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -962,23 +1089,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 2,
 						"locked": true,
 						"name": "Golden Grid",
-						"pos": { "x": 0.0, "y": 0.0 },
-						"private_settings": { "color": "", "color-preset": 3 },
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 3
+						},
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": false
 					}
 				]
 			},
 			"sync": 0,
 			"versioned_id": "scene",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -988,7 +1128,11 @@
 			"flags": 0,
 			"hotkeys": {
 				"OBSBasic.SelectScene": [
-					{ "alt": true, "command": true, "key": "OBS_KEY_Z" }
+					{
+						"alt": true,
+						"command": true,
+						"key": "OBS_KEY_Z"
+					}
 				],
 				"libobs.hide_scene_item.Golden Grid": [],
 				"libobs.hide_scene_item.Main Monitor Blurred": [],
@@ -1016,7 +1160,10 @@
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1024,23 +1171,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 7,
 						"locked": true,
 						"name": "Main Monitor Blurred",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1048,23 +1208,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 13,
 						"locked": true,
 						"name": "Golden Grid",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": false
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1072,23 +1245,33 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 16,
 						"locked": false,
 						"name": "_Audio",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					}
 				]
 			},
 			"sync": 0,
 			"versioned_id": "scene",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -1125,7 +1308,7 @@
 					},
 					"sync": 0,
 					"versioned_id": "streamfx-filter-blur",
-					"volume": 1.0
+					"volume": 1
 				}
 			],
 			"flags": 0,
@@ -1141,10 +1324,12 @@
 			"push-to-mute-delay": 0,
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
-			"settings": { "monitor": 0 },
+			"settings": {
+				"monitor": 0
+			},
 			"sync": 0,
 			"versioned_id": "monitor_capture",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -1154,7 +1339,11 @@
 			"flags": 0,
 			"hotkeys": {
 				"OBSBasic.SelectScene": [
-					{ "alt": true, "command": true, "key": "OBS_KEY_S" }
+					{
+						"alt": true,
+						"command": true,
+						"key": "OBS_KEY_S"
+					}
 				],
 				"libobs.hide_scene_item.BRB Dark": [],
 				"libobs.hide_scene_item.BRB Light": [],
@@ -1182,7 +1371,10 @@
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1190,23 +1382,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 9,
 						"locked": true,
 						"name": "_Audio",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1214,23 +1419,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 17,
 						"locked": true,
 						"name": "BRB Light",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1238,23 +1456,33 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 16,
 						"locked": true,
 						"name": "BRB Dark",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": false
 					}
 				]
 			},
 			"sync": 0,
 			"versioned_id": "scene",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -1279,7 +1507,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -1306,7 +1534,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -1333,7 +1561,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -1343,7 +1571,11 @@
 			"flags": 0,
 			"hotkeys": {
 				"OBSBasic.SelectScene": [
-					{ "alt": true, "command": true, "key": "OBS_KEY_A" }
+					{
+						"alt": true,
+						"command": true,
+						"key": "OBS_KEY_A"
+					}
 				],
 				"libobs.hide_scene_item.GOOD NIGHT STREAM Dark": [],
 				"libobs.hide_scene_item.GOOD NIGHT STREAM Light": [],
@@ -1371,7 +1603,10 @@
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1379,23 +1614,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 6,
 						"locked": false,
 						"name": "_Audio",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 1920.0, "y": 1080.0 },
+						"bounds": {
+							"x": 1920,
+							"y": 1080
+						},
 						"bounds_align": 0,
 						"bounds_type": 1,
 						"crop_bottom": 0,
@@ -1403,23 +1651,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 3,
 						"locked": false,
 						"name": "GOOD NIGHT STREAM Light",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1427,23 +1688,33 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 7,
 						"locked": false,
 						"name": "GOOD NIGHT STREAM Dark",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": false
 					}
 				]
 			},
 			"sync": 0,
 			"versioned_id": "scene",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -1474,7 +1745,7 @@
 					},
 					"sync": 0,
 					"versioned_id": "mask_filter_v2",
-					"volume": 1.0
+					"volume": 1
 				}
 			],
 			"flags": 0,
@@ -1490,10 +1761,14 @@
 			"push-to-mute-delay": 0,
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
-			"settings": { "color": 4278190080, "height": 480, "width": 640 },
+			"settings": {
+				"color": 4278190080,
+				"height": 480,
+				"width": 640
+			},
 			"sync": 0,
 			"versioned_id": "color_source_v3",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -1525,7 +1800,7 @@
 					},
 					"sync": 0,
 					"versioned_id": "mask_filter_v2",
-					"volume": 1.0
+					"volume": 1
 				}
 			],
 			"flags": 0,
@@ -1541,10 +1816,14 @@
 			"push-to-mute-delay": 0,
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
-			"settings": { "color": 4278190080, "height": 480, "width": 640 },
+			"settings": {
+				"color": 4278190080,
+				"height": 480,
+				"width": 640
+			},
 			"sync": 0,
 			"versioned_id": "color_source_v3",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -1585,7 +1864,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "text_gdiplus_v2",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -1621,7 +1900,10 @@
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1629,23 +1911,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 4,
 						"locked": false,
 						"name": "Speakers",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 1920.0, "y": 1080.0 },
+						"bounds": {
+							"x": 1920,
+							"y": 1080
+						},
 						"bounds_align": 0,
 						"bounds_type": 1,
 						"crop_bottom": 0,
@@ -1653,23 +1948,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 5,
 						"locked": false,
 						"name": "Microphone",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1677,23 +1985,33 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 8,
 						"locked": false,
 						"name": "Speakers 2",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					}
 				]
 			},
 			"sync": 0,
 			"versioned_id": "scene",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -1703,7 +2021,11 @@
 			"flags": 0,
 			"hotkeys": {
 				"OBSBasic.SelectScene": [
-					{ "control": true, "key": "OBS_KEY_7", "shift": true }
+					{
+						"control": true,
+						"key": "OBS_KEY_7",
+						"shift": true
+					}
 				],
 				"libobs.hide_scene_item.Border Left": [],
 				"libobs.hide_scene_item.Border Right": [],
@@ -1745,7 +2067,10 @@
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1753,26 +2078,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 8,
 						"locked": false,
 						"name": "Webcam bg Right",
-						"pos": { "x": 960.0, "y": 655.0 },
+						"pos": {
+							"x": 960,
+							"y": 655
+						},
 						"private_settings": {},
-						"rot": 0.0,
+						"rot": 0,
 						"scale": {
-							"x": 0.75156247615814209,
-							"y": 0.75208336114883423
+							"x": 0.7515624761581421,
+							"y": 0.7520833611488342
 						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1780,23 +2115,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 9,
 						"locked": false,
 						"name": "No Signal.",
-						"pos": { "x": 1118.0, "y": 810.0 },
+						"pos": {
+							"x": 1118,
+							"y": 810
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1804,23 +2152,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 10,
 						"locked": false,
 						"name": "Webcam Right",
-						"pos": { "x": 960.0, "y": 654.0 },
+						"pos": {
+							"x": 960,
+							"y": 654
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 0.75, "y": 0.75 },
+						"rot": 0,
+						"scale": {
+							"x": 0.75,
+							"y": 0.75
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1828,23 +2189,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 11,
 						"locked": false,
 						"name": "Border Right",
-						"pos": { "x": 960.0, "y": 720.0 },
+						"pos": {
+							"x": 960,
+							"y": 720
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 0.75, "y": 0.75069254636764526 },
+						"rot": 0,
+						"scale": {
+							"x": 0.75,
+							"y": 0.7506925463676453
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1852,26 +2226,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 2,
 						"locked": false,
 						"name": "Now playing widget Light",
-						"pos": { "x": 1351.0, "y": 15.0 },
+						"pos": {
+							"x": 1351,
+							"y": 15
+						},
 						"private_settings": {},
-						"rot": 0.0,
+						"rot": 0,
 						"scale": {
-							"x": 0.89516127109527588,
-							"y": 0.89583331346511841
+							"x": 0.8951612710952759,
+							"y": 0.8958333134651184
 						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": false
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1879,23 +2263,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 4,
 						"locked": false,
 						"name": "Webcam bg Left",
-						"pos": { "x": 480.0, "y": 654.0 },
+						"pos": {
+							"x": 480,
+							"y": 654
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 0.75, "y": 0.75 },
+						"rot": 0,
+						"scale": {
+							"x": 0.75,
+							"y": 0.75
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1903,23 +2300,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 5,
 						"locked": false,
 						"name": "No Signal.",
-						"pos": { "x": 638.0, "y": 810.0 },
+						"pos": {
+							"x": 638,
+							"y": 810
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1927,23 +2337,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 6,
 						"locked": false,
 						"name": "Webcam Left",
-						"pos": { "x": 960.0, "y": 1057.0 },
+						"pos": {
+							"x": 960,
+							"y": 1057
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": -0.75, "y": -0.75 },
+						"rot": 0,
+						"scale": {
+							"x": -0.75,
+							"y": -0.75
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1951,23 +2374,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 7,
 						"locked": false,
 						"name": "Border Left",
-						"pos": { "x": 480.0, "y": 720.0 },
+						"pos": {
+							"x": 480,
+							"y": 720
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 0.75, "y": 0.75069254636764526 },
+						"rot": 0,
+						"scale": {
+							"x": 0.75,
+							"y": 0.7506925463676453
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1975,23 +2411,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 13,
 						"locked": false,
 						"name": "Now Playing Widget Light",
-						"pos": { "x": 1286.0, "y": 15.0 },
+						"pos": {
+							"x": 1286,
+							"y": 15
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -1999,23 +2448,33 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 16,
 						"locked": false,
 						"name": "_Audio",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					}
 				]
 			},
 			"sync": 0,
 			"versioned_id": "scene",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -2065,7 +2524,10 @@
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -2073,26 +2535,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 1,
 						"locked": false,
 						"name": "Webcam bg Right 2",
-						"pos": { "x": 960.0, "y": 655.0 },
+						"pos": {
+							"x": 960,
+							"y": 655
+						},
 						"private_settings": {},
-						"rot": 0.0,
+						"rot": 0,
 						"scale": {
-							"x": 0.75156247615814209,
-							"y": 0.75208336114883423
+							"x": 0.7515624761581421,
+							"y": 0.7520833611488342
 						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -2100,23 +2572,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 2,
 						"locked": false,
 						"name": "No Signal. 2",
-						"pos": { "x": 1118.0, "y": 810.0 },
+						"pos": {
+							"x": 1118,
+							"y": 810
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -2124,23 +2609,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 8,
 						"locked": false,
 						"name": "Webcam Right",
-						"pos": { "x": 960.0, "y": 654.0 },
+						"pos": {
+							"x": 960,
+							"y": 654
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 0.75, "y": 0.75 },
+						"rot": 0,
+						"scale": {
+							"x": 0.75,
+							"y": 0.75
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -2148,23 +2646,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 3,
 						"locked": false,
 						"name": "Border Right 2",
-						"pos": { "x": 960.0, "y": 720.0 },
+						"pos": {
+							"x": 960,
+							"y": 720
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 0.75, "y": 0.75069254636764526 },
+						"rot": 0,
+						"scale": {
+							"x": 0.75,
+							"y": 0.7506925463676453
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -2172,23 +2683,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 4,
 						"locked": false,
 						"name": "Webcam bg Left 2",
-						"pos": { "x": 480.0, "y": 654.0 },
+						"pos": {
+							"x": 480,
+							"y": 654
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 0.75, "y": 0.75 },
+						"rot": 0,
+						"scale": {
+							"x": 0.75,
+							"y": 0.75
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -2196,23 +2720,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 5,
 						"locked": false,
 						"name": "No Signal. 3",
-						"pos": { "x": 638.0, "y": 810.0 },
+						"pos": {
+							"x": 638,
+							"y": 810
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -2220,23 +2757,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 7,
 						"locked": false,
 						"name": "Webcam Left",
-						"pos": { "x": 960.0, "y": 1057.0 },
+						"pos": {
+							"x": 960,
+							"y": 1057
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": -0.75, "y": -0.75 },
+						"rot": 0,
+						"scale": {
+							"x": -0.75,
+							"y": -0.75
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -2244,23 +2794,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 6,
 						"locked": false,
 						"name": "Border Left 2",
-						"pos": { "x": 480.0, "y": 720.0 },
+						"pos": {
+							"x": 480,
+							"y": 720
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 0.75, "y": 0.75069254636764526 },
+						"rot": 0,
+						"scale": {
+							"x": 0.75,
+							"y": 0.7506925463676453
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -2268,23 +2831,36 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 9,
 						"locked": false,
 						"name": "Now Playing Widget Dark",
-						"pos": { "x": 1286.0, "y": 15.0 },
+						"pos": {
+							"x": 1286,
+							"y": 15
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					},
 					{
 						"align": 5,
 						"blend_method": "default",
 						"blend_type": "normal",
-						"bounds": { "x": 0.0, "y": 0.0 },
+						"bounds": {
+							"x": 0,
+							"y": 0
+						},
 						"bounds_align": 0,
 						"bounds_type": 0,
 						"crop_bottom": 0,
@@ -2292,23 +2868,33 @@
 						"crop_right": 0,
 						"crop_top": 0,
 						"group_item_backup": false,
-						"hide_transition": { "duration": 0 },
+						"hide_transition": {
+							"duration": 0
+						},
 						"id": 10,
 						"locked": false,
 						"name": "_Audio",
-						"pos": { "x": 0.0, "y": 0.0 },
+						"pos": {
+							"x": 0,
+							"y": 0
+						},
 						"private_settings": {},
-						"rot": 0.0,
-						"scale": { "x": 1.0, "y": 1.0 },
+						"rot": 0,
+						"scale": {
+							"x": 1,
+							"y": 1
+						},
 						"scale_filter": "disable",
-						"show_transition": { "duration": 0 },
+						"show_transition": {
+							"duration": 0
+						},
 						"visible": true
 					}
 				]
 			},
 			"sync": 0,
 			"versioned_id": "scene",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -2340,7 +2926,7 @@
 					},
 					"sync": 0,
 					"versioned_id": "mask_filter_v2",
-					"volume": 1.0
+					"volume": 1
 				}
 			],
 			"flags": 0,
@@ -2356,10 +2942,14 @@
 			"push-to-mute-delay": 0,
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
-			"settings": { "color": 4278190080, "height": 480, "width": 640 },
+			"settings": {
+				"color": 4278190080,
+				"height": 480,
+				"width": 640
+			},
 			"sync": 0,
 			"versioned_id": "color_source_v3",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -2400,7 +2990,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "text_gdiplus_v2",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -2427,7 +3017,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -2458,7 +3048,7 @@
 					},
 					"sync": 0,
 					"versioned_id": "mask_filter_v2",
-					"volume": 1.0
+					"volume": 1
 				}
 			],
 			"flags": 0,
@@ -2474,10 +3064,14 @@
 			"push-to-mute-delay": 0,
 			"push-to-talk": false,
 			"push-to-talk-delay": 0,
-			"settings": { "color": 4278190080, "height": 480, "width": 640 },
+			"settings": {
+				"color": 4278190080,
+				"height": 480,
+				"width": 640
+			},
 			"sync": 0,
 			"versioned_id": "color_source_v3",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -2518,7 +3112,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "text_gdiplus_v2",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -2545,7 +3139,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -2582,7 +3176,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "browser_source",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -2617,7 +3211,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "browser_source",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -2642,7 +3236,7 @@
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
-			"volume": 1.0
+			"volume": 1
 		},
 		{
 			"balance": 0.5,
@@ -2667,10 +3261,15 @@
 			},
 			"sync": 0,
 			"versioned_id": "image_source",
-			"volume": 1.0
+			"volume": 1
 		}
 	],
 	"transition_duration": 300,
 	"transitions": [],
-	"virtual-camera": { "internal": 0, "scene": "", "source": "", "type": 0 }
+	"virtual-camera": {
+		"internal": 0,
+		"scene": "",
+		"source": "",
+		"type": 0
+	}
 }
