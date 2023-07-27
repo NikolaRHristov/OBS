@@ -690,7 +690,7 @@
 				"reroute_audio": false,
 				"restart_when_active": true,
 				"undo_sname": "Now playing widget",
-				"url": "https://spotify-widget-nikolahristov.vercel.app/current-light/11135643531",
+				"url": "git+https://spotify-widget-nikolahristov.vercel.app/current-light/11135643531",
 				"webpage_control_level": 0,
 				"width": 620
 			},
@@ -3170,7 +3170,7 @@
 				"fps_custom": false,
 				"height": 240,
 				"restart_when_active": true,
-				"url": "https://spotify-widget-nikolahristov.vercel.app/current-dark/11135643531",
+				"url": "git+https://spotify-widget-nikolahristov.vercel.app/current-dark/11135643531",
 				"webpage_control_level": 0,
 				"width": 620
 			},
@@ -3206,7 +3206,7 @@
 				"css": "",
 				"height": 240,
 				"restart_when_active": true,
-				"url": "https://spotify-widget-nikolahristov.vercel.app/current-light/11135643531",
+				"url": "git+https://spotify-widget-nikolahristov.vercel.app/current-light/11135643531",
 				"width": 620
 			},
 			"sync": 0,
