@@ -1,1989 +1,1989 @@
 {
-    "current_scene": "Main Scene",
-    "current_program_scene": "Main Scene",
-    "scene_order": [
-        {
-            "name": "Main Scene"
-        },
-        {
-            "name": "Camera"
-        }
-    ],
-    "name": "Untitled",
-    "groups": [
-        {
-            "prev_ver": 486604803,
-            "name": "Audio",
-            "uuid": "8dbaaa60-ccd0-4e93-95fa-e02a7926a61e",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 0,
-                "cy": 0,
-                "items": [
-                    {
-                        "name": "Audio Input Capture",
-                        "source_uuid": "c721d4a2-91cd-48e8-9d29-f9097855b47a",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 14,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Audio Output Capture",
-                        "source_uuid": "b032bf36-8d5c-45cb-83b4-cdae5d41e2dc",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 23,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color-preset": 0,
-                            "color": ""
-                        }
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.Audio Input Capture": [],
-                "libobs.hide_scene_item.Audio Input Capture": [],
-                "libobs.show_scene_item.Audio Output Capture": [],
-                "libobs.hide_scene_item.Audio Output Capture": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Display",
-            "uuid": "d3e3ab1c-bafc-48b9-b324-83d18891595e",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 2577,
-                "cy": 1441,
-                "items": [
-                    {
-                        "name": "Display Capture",
-                        "source_uuid": "b05af187-0e64-4579-a5a4-8c8157b0bf5e",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 35,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "VSCode",
-                        "source_uuid": "6771e531-b397-4e5d-b650-d8cd243811a1",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 0.89765644073486328,
-                            "y": 0.89784574508666992
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 9,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 1440.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 27,
-                        "group_item_backup": false,
-                        "scale_filter": "lanczos",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Chrome",
-                        "source_uuid": "299b4dc8-1f5c-43a0-85f5-664b2444ca9f",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 479.0
-                        },
-                        "scale": {
-                            "x": 0.599609375,
-                            "y": 0.59955751895904541
-                        },
-                        "align": 5,
-                        "bounds_type": 5,
-                        "bounds_align": 9,
-                        "bounds": {
-                            "x": 1540.0,
-                            "y": 961.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 28,
-                        "group_item_backup": false,
-                        "scale_filter": "lanczos",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Camera",
-                        "source_uuid": "dc976a91-4599-4442-b066-9752839a85b5",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 2560.0,
-                            "y": 1440.0
-                        },
-                        "scale": {
-                            "x": 0.29492196440696716,
-                            "y": 0.2951388955116272
-                        },
-                        "align": 10,
-                        "bounds_type": 3,
-                        "bounds_align": 9,
-                        "bounds": {
-                            "x": 1024.0,
-                            "y": 360.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 30,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Color Source",
-                        "source_uuid": "b107bd83-63b1-4b1b-8093-ca7fa7f6670c",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.3333333730697632,
-                            "y": 0.083333313465118408
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 37,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color-preset": 0,
-                            "color": ""
-                        }
-                    },
-                    {
-                        "name": "Spectralizer",
-                        "source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": -11.531534194946289,
-                            "y": 1.5199999809265137
-                        },
-                        "align": 5,
-                        "bounds_type": 4,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 481.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 36,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Browser",
-                        "source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1535.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 0.54218769073486328,
-                            "y": 0.54259258508682251
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 38,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Terminal",
-                        "source_uuid": "6eda37f3-bf23-4ddb-abfb-ccbb41220fa9",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 2576.0,
-                            "y": 1440.0
-                        },
-                        "scale": {
-                            "x": 0.59609377384185791,
-                            "y": 0.59583336114883423
-                        },
-                        "align": 10,
-                        "bounds_type": 5,
-                        "bounds_align": 9,
-                        "bounds": {
-                            "x": 1041.46875,
-                            "y": 882.33880615234375
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 27,
-                        "crop_bottom": 0,
-                        "id": 29,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Golden Ratio Blue.png",
-                        "source_uuid": "b3de0b87-25f3-434f-a66e-111e43f3661f",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.3333333730697632,
-                            "y": 1.3333330154418945
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 31,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color-preset": 0,
-                            "color": ""
-                        }
-                    },
-                    {
-                        "name": "Golden Ratio Red.png",
-                        "source_uuid": "ddb2fe65-7ab8-4a29-9bdd-acf58582ea81",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.3333333730697632,
-                            "y": 1.3333330154418945
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 32,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color-preset": 0,
-                            "color": ""
-                        }
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.Display Capture": [],
-                "libobs.hide_scene_item.Display Capture": [],
-                "libobs.show_scene_item.VSCode": [],
-                "libobs.hide_scene_item.VSCode": [],
-                "libobs.show_scene_item.Chrome": [],
-                "libobs.hide_scene_item.Chrome": [],
-                "libobs.show_scene_item.Terminal": [],
-                "libobs.hide_scene_item.Terminal": [],
-                "libobs.show_scene_item.Camera": [],
-                "libobs.hide_scene_item.Camera": [],
-                "libobs.show_scene_item.Color Source": [],
-                "libobs.hide_scene_item.Color Source": [],
-                "libobs.show_scene_item.Spectralizer": [],
-                "libobs.hide_scene_item.Spectralizer": [],
-                "libobs.show_scene_item.Golden Ratio Blue.png": [],
-                "libobs.hide_scene_item.Golden Ratio Blue.png": [],
-                "libobs.show_scene_item.Golden Ratio Red.png": [],
-                "libobs.hide_scene_item.Golden Ratio Red.png": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        }
-    ],
-    "quick_transitions": [
-        {
-            "name": "Cut",
-            "duration": 300,
-            "hotkeys": [],
-            "id": 1,
-            "fade_to_black": false
-        },
-        {
-            "name": "Fade",
-            "duration": 300,
-            "hotkeys": [],
-            "id": 2,
-            "fade_to_black": false
-        },
-        {
-            "name": "Fade",
-            "duration": 5000,
-            "hotkeys": [],
-            "id": 3,
-            "fade_to_black": true
-        }
-    ],
-    "transitions": [],
-    "saved_projectors": [],
-    "current_transition": "Fade",
-    "transition_duration": 300,
-    "preview_locked": false,
-    "scaling_enabled": false,
-    "scaling_level": 0,
-    "scaling_off_x": 0.0,
-    "scaling_off_y": 0.0,
-    "virtual-camera": {
-        "type": 0,
-        "internal": 0
-    },
-    "modules": {
-        "scripts-tool": [],
-        "output-timer": {
-            "streamTimerHours": 0,
-            "streamTimerMinutes": 0,
-            "streamTimerSeconds": 30,
-            "recordTimerHours": 0,
-            "recordTimerMinutes": 0,
-            "recordTimerSeconds": 30,
-            "autoStartStreamTimer": false,
-            "autoStartRecordTimer": false,
-            "pauseRecordTimer": true
-        },
-        "auto-scene-switcher": {
-            "interval": 300,
-            "non_matching_scene": "Main Scene",
-            "switch_if_not_matching": false,
-            "active": false,
-            "switches": [
-                {
-                    "scene": "Main Scene",
-                    "window_title": "Bitwarden"
-                }
-            ]
-        },
-        "captions": {
-            "source": "",
-            "enabled": false,
-            "lang_id": 1033,
-            "provider": "mssapi"
-        },
-        "advanced-scene-switcher": {
-            "sceneGroups": [],
-            "macroProperties": {
-                "highlightExecuted": false,
-                "highlightConditions": false,
-                "highlightActions": false,
-                "newMacroRegisterHotkey": false
-            },
-            "macros": [
-                {
-                    "name": "Focus VSCode",
-                    "pause": false,
-                    "parallel": true,
-                    "onChange": true,
-                    "group": false,
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true
-                    },
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "collapsed": true,
-                            "id": "process",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "process": "Code - Insiders.exe",
-                            "focus": true
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "collapsed": true,
-                            "id": "source",
-                            "source": {
-                                "type": 0,
-                                "name": "Chrome"
-                            },
-                            "action": 1,
-                            "sourceSettingButton": {
-                                "id": "",
-                                "description": ""
-                            },
-                            "settings": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "Focus Chrome",
-                    "pause": false,
-                    "parallel": true,
-                    "onChange": true,
-                    "group": false,
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true
-                    },
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "collapsed": true,
-                            "id": "process",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "process": "chrome.exe",
-                            "focus": true
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "collapsed": false,
-                            "id": "source",
-                            "source": {
-                                "type": 0,
-                                "name": "Chrome"
-                            },
-                            "action": 0,
-                            "sourceSettingButton": {
-                                "id": "",
-                                "description": ""
-                            },
-                            "settings": ""
-                        }
-                    ]
-                }
-            ],
-            "connections": [],
-            "variables": [],
-            "switches": [],
-            "ignoreWindows": [],
-            "screenRegion": [],
-            "pauseEntries": [],
-            "sceneRoundTrip": [],
-            "sceneTransitions": [],
-            "defaultTransitions": [],
-            "defTransitionDelay": 0,
-            "ignoreIdleWindows": [],
-            "idleTargetType": 0,
-            "idleSceneName": "",
-            "idleTransitionName": "",
-            "idleEnable": false,
-            "idleTime": 60,
-            "executableSwitches": [],
-            "randomSwitches": [],
-            "fileSwitches": [],
-            "readEnabled": false,
-            "readPath": "",
-            "writeEnabled": false,
-            "writePath": "",
-            "mediaSwitches": [],
-            "timeSwitches": [],
-            "audioSwitches": [],
-            "audioFallbackTargetType": 0,
-            "audioFallbackScene": "",
-            "audioFallbackTransition": "",
-            "audioFallbackEnable": false,
-            "audioFallbackDuration": {
-                "value": {
-                    "value": 0.0,
-                    "type": 0
-                },
-                "unit": 0,
-                "version": 1
-            },
-            "videoSwitches": [],
-            "ServerEnabled": false,
-            "ServerPort": 55555,
-            "LockToIPv4": false,
-            "ClientEnabled": false,
-            "Address": "",
-            "ClientPort": 55555,
-            "SendSceneChange": true,
-            "SendSceneChangeAll": true,
-            "SendPreview": true,
-            "triggers": [],
-            "interval": 50,
-            "non_matching_scene": "",
-            "switch_if_not_matching": 0,
-            "noMatchDelay": {
-                "value": {
-                    "value": 0.0,
-                    "type": 0
-                },
-                "unit": 0,
-                "version": 1
-            },
-            "cooldown": {
-                "value": {
-                    "value": 0.0,
-                    "type": 0
-                },
-                "unit": 0,
-                "version": 1
-            },
-            "active": true,
-            "startup_behavior": 0,
-            "autoStartEvent": 0,
-            "verbose": false,
-            "showSystemTrayNotifications": false,
-            "disableHints": false,
-            "warnPluginLoadFailure": true,
-            "hideLegacyTabs": true,
-            "priority0": 10,
-            "priority1": 0,
-            "priority2": 2,
-            "priority3": 8,
-            "priority4": 6,
-            "priority5": 9,
-            "priority6": 7,
-            "priority7": 4,
-            "priority8": 1,
-            "priority9": 5,
-            "priority10": 3,
-            "threadPriority": 3,
-            "transitionOverrideOverride": false,
-            "adjustActiveTransitionType": true,
-            "lastImportPath": "",
-            "startHotkey": [],
-            "stopHotkey": [],
-            "toggleHotkey": [],
-            "upMacroSegmentHotkey": [],
-            "downMacroSegmentHotkey": [],
-            "removeMacroSegmentHotkey": [],
-            "generalTabPos": 0,
-            "macroTabPos": 1,
-            "transitionTabPos": 15,
-            "pauseTabPos": 16,
-            "titleTabPos": 2,
-            "exeTabPos": 3,
-            "regionTabPos": 4,
-            "mediaTabPos": 5,
-            "fileTabPos": 6,
-            "randomTabPos": 7,
-            "timeTabPos": 8,
-            "idleTabPos": 9,
-            "sequenceTabPos": 10,
-            "audioTabPos": 11,
-            "videoTabPos": 12,
-            "networkTabPos": 13,
-            "sceneGroupTabPos": 14,
-            "triggerTabPos": 17,
-            "saveWindowGeo": false,
-            "windowPosX": -55,
-            "windowPosY": 129,
-            "windowWidth": 1400,
-            "windowHeight": 840,
-            "macroActionConditionSplitterPosition": [
-                {
-                    "pos": 240
-                },
-                {
-                    "pos": 383
-                }
-            ],
-            "macroListMacroEditSplitterPosition": [
-                {
-                    "pos": 206
-                },
-                {
-                    "pos": 1167
-                }
-            ],
-            "version": "9bedbf6fb826700944c3136f34504cc9a89c39cb"
-        }
-    },
-    "sources": [
-        {
-            "prev_ver": 486604803,
-            "name": "Audio Input Capture",
-            "uuid": "c721d4a2-91cd-48e8-9d29-f9097855b47a",
-            "id": "wasapi_input_capture",
-            "versioned_id": "wasapi_input_capture",
-            "settings": {
-                "device_id": "{0.0.1.00000000}.{2e0f759b-ca11-4539-9f7a-5181b376ca52}",
-                "use_device_timing": true
-            },
-            "mixers": 255,
-            "sync": -950000000,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": true,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Audio Output Capture",
-            "uuid": "b032bf36-8d5c-45cb-83b4-cdae5d41e2dc",
-            "id": "wasapi_output_capture",
-            "versioned_id": "wasapi_output_capture",
-            "settings": {
-                "device_id": "{0.0.0.00000000}.{e3fa894c-a9f9-45a7-8a2d-11cc8de6c2f6}",
-                "use_device_timing": true
-            },
-            "mixers": 255,
-            "sync": 250000000,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 2,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Browser",
-            "uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "url": "https://gfycat.com/coolperfectjapanesebeetle",
-                "width": 1920,
-                "height": 1080,
-                "css": "",
-                "restart_when_active": true,
-                "webpage_control_level": 0
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Camera",
-            "uuid": "dc976a91-4599-4442-b066-9752839a85b5",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 1,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "Video Capture Device",
-                        "source_uuid": "395bfb62-5271-4522-b687-38cd9d609734",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.3333333730697632,
-                            "y": 1.3333333730697632
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.Video Capture Device": [],
-                "libobs.hide_scene_item.Video Capture Device": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Chrome",
-            "uuid": "299b4dc8-1f5c-43a0-85f5-664b2444ca9f",
-            "id": "window_capture",
-            "versioned_id": "window_capture",
-            "settings": {
-                "window": "baxast · GitHub - Google Chrome:Chrome_WidgetWin_1:chrome.exe",
-                "priority": 2,
-                "method": 2,
-                "force_sdr": true
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": false,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Color Source",
-            "uuid": "b107bd83-63b1-4b1b-8093-ca7fa7f6670c",
-            "id": "color_source",
-            "versioned_id": "color_source_v3",
-            "settings": {
-                "color": 4279369984
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Display Capture",
-            "uuid": "b05af187-0e64-4579-a5a4-8c8157b0bf5e",
-            "id": "monitor_capture",
-            "versioned_id": "monitor_capture",
-            "settings": {
-                "monitor_id": "\\\\?\\DISPLAY#LEN66E8#7&1fa62c60&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}",
-                "force_sdr": false
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Golden Ratio Blue.png",
-            "uuid": "b3de0b87-25f3-434f-a66e-111e43f3661f",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "D:/Developer/Application/NikolaRHristov/OBS/Image/Golden Ratio Blue.png",
-                "unload": true,
-                "linear_alpha": true
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Golden Ratio Red.png",
-            "uuid": "ddb2fe65-7ab8-4a29-9bdd-acf58582ea81",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "D:/Developer/Application/NikolaRHristov/OBS/Image/Golden Ratio Red.png"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Main Scene",
-            "uuid": "b8aab71b-a6bd-438d-adf4-977c69ec0e18",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 38,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "Audio Input Capture",
-                        "source_uuid": "c721d4a2-91cd-48e8-9d29-f9097855b47a",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 14,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Audio Output Capture",
-                        "source_uuid": "b032bf36-8d5c-45cb-83b4-cdae5d41e2dc",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 23,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color-preset": 0,
-                            "color": ""
-                        }
-                    },
-                    {
-                        "name": "Audio",
-                        "source_uuid": "8dbaaa60-ccd0-4e93-95fa-e02a7926a61e",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 17,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "collapsed": true,
-                            "color-preset": 0,
-                            "color": ""
-                        }
-                    },
-                    {
-                        "name": "Display Capture",
-                        "source_uuid": "b05af187-0e64-4579-a5a4-8c8157b0bf5e",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 0.99378883838653564,
-                            "y": 0.99379312992095947
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 35,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "VSCode",
-                        "source_uuid": "6771e531-b397-4e5d-b650-d8cd243811a1",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 0.89208096265792847,
-                            "y": 0.89227294921875
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 9,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 1440.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 27,
-                        "group_item_backup": true,
-                        "scale_filter": "lanczos",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Chrome",
-                        "source_uuid": "299b4dc8-1f5c-43a0-85f5-664b2444ca9f",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 476.02691650390625
-                        },
-                        "scale": {
-                            "x": 0.59588509798049927,
-                            "y": 0.59583616256713867
-                        },
-                        "align": 5,
-                        "bounds_type": 5,
-                        "bounds_align": 9,
-                        "bounds": {
-                            "x": 1540.0,
-                            "y": 961.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 28,
-                        "group_item_backup": true,
-                        "scale_filter": "lanczos",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Camera",
-                        "source_uuid": "dc976a91-4599-4442-b066-9752839a85b5",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 2544.099365234375,
-                            "y": 1431.0621337890625
-                        },
-                        "scale": {
-                            "x": 0.29309016466140747,
-                            "y": 0.29330700635910034
-                        },
-                        "align": 10,
-                        "bounds_type": 3,
-                        "bounds_align": 9,
-                        "bounds": {
-                            "x": 1024.0,
-                            "y": 360.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 30,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Color Source",
-                        "source_uuid": "b107bd83-63b1-4b1b-8093-ca7fa7f6670c",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.3250517845153809,
-                            "y": 0.082816071808338165
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 37,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color-preset": 0,
-                            "color": ""
-                        }
-                    },
-                    {
-                        "name": "Spectralizer",
-                        "source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": -11.45991039276123,
-                            "y": 1.5105655193328857
-                        },
-                        "align": 5,
-                        "bounds_type": 4,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 481.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 36,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Browser",
-                        "source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1525.4658203125,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 0.53882008790969849,
-                            "y": 0.53922480344772339
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 38,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Terminal",
-                        "source_uuid": "6eda37f3-bf23-4ddb-abfb-ccbb41220fa9",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 2560.0,
-                            "y": 1431.0621337890625
-                        },
-                        "scale": {
-                            "x": 0.59239131212234497,
-                            "y": 0.59213507175445557
-                        },
-                        "align": 10,
-                        "bounds_type": 5,
-                        "bounds_align": 9,
-                        "bounds": {
-                            "x": 1041.46875,
-                            "y": 882.33880615234375
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 27,
-                        "crop_bottom": 0,
-                        "id": 29,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Golden Ratio Blue.png",
-                        "source_uuid": "b3de0b87-25f3-434f-a66e-111e43f3661f",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.3250517845153809,
-                            "y": 1.3250571489334106
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 31,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color-preset": 0,
-                            "color": ""
-                        }
-                    },
-                    {
-                        "name": "Golden Ratio Red.png",
-                        "source_uuid": "ddb2fe65-7ab8-4a29-9bdd-acf58582ea81",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.3250517845153809,
-                            "y": 1.3250571489334106
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 32,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color-preset": 0,
-                            "color": ""
-                        }
-                    },
-                    {
-                        "name": "Display",
-                        "source_uuid": "d3e3ab1c-bafc-48b9-b324-83d18891595e",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 0.99378883838653564,
-                            "y": 0.99379312992095947
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 34,
-                        "group_item_backup": false,
-                        "scale_filter": "lanczos",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "collapsed": false,
-                            "color-preset": 0
-                        }
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.Audio": [],
-                "libobs.hide_scene_item.Audio": [],
-                "libobs.show_scene_item.Display": [],
-                "libobs.hide_scene_item.Display": [],
-                "libobs.show_scene_item.Browser": [],
-                "libobs.hide_scene_item.Browser": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Spectralizer",
-            "uuid": "ef40192a-c406-40cb-b506-18575345fee2",
-            "id": "spectralizer",
-            "versioned_id": "spectralizer",
-            "settings": {
-                "undo_sname": "Spectralizer",
-                "stereo_space": -2,
-                "color": 4294967295,
-                "detail": 23,
-                "stereo": true,
-                "audio_source": "Audio Output Capture",
-                "filter_mode": 2,
-                "filter_strength": 1.5,
-                "gravity": 0.85999999999999999,
-                "sgs_passes": 1,
-                "sgs_points": 32,
-                "width": 92,
-                "height": 2430,
-                "bar_space": 3,
-                "use_auto_scale": false,
-                "scale_size": 0.215,
-                "scale_boost": 98.498000000000005,
-                "log_freq_scale": true,
-                "log_freq_scale_start": 83.299999999999997,
-                "log_freq_scale_use_hpf": true,
-                "log_freq_scale_hpf_curve": 66.400000000000006,
-                "round_corners": false,
-                "corner_points": 25,
-                "corner_radius": 25.200000000000049
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Terminal",
-            "uuid": "6eda37f3-bf23-4ddb-abfb-ccbb41220fa9",
-            "id": "window_capture",
-            "versioned_id": "window_capture",
-            "settings": {
-                "priority": 2,
-                "window": ".../baxast/baxast:CASCADIA_HOSTING_WINDOW_CLASS:WindowsTerminal.exe",
-                "method": 2,
-                "cursor": true,
-                "force_sdr": true,
-                "compatibility": true,
-                "client_area": false
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Video Capture Device",
-            "uuid": "395bfb62-5271-4522-b687-38cd9d609734",
-            "id": "dshow_input",
-            "versioned_id": "dshow_input",
-            "settings": {
-                "video_device_id": "Rapoo Camera:\\\\?\\usb#22vid_0c45&pid_4653&mi_00#227&bf52a93&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-                "last_video_device_id": "Rapoo Camera:\\\\?\\usb#22vid_0c45&pid_4653&mi_00#227&bf52a93&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-                "flip_vertically": false,
-                "resolution": "2560x1440",
-                "last_resolution": "2560x1440",
-                "buffering": 0,
-                "use_custom_audio_device": true,
-                "audio_device_id": "Microphone (Rapoo Camera):",
-                "frame_interval": -1,
-                "res_type": 0,
-                "video_format": 0,
-                "active": true,
-                "color_space": "default",
-                "color_range": "full",
-                "audio_output_mode": 0,
-                "autorotation": false,
-                "hw_decode": false
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 0.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": true,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 2,
-            "private_settings": {
-                "mixer_hidden": true
-            }
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "VSCode",
-            "uuid": "6771e531-b397-4e5d-b650-d8cd243811a1",
-            "id": "window_capture",
-            "versioned_id": "window_capture",
-            "settings": {
-                "window": "D#3A\\Developer - D#3A\\Developer\\app2\\baxast\\astro-critters\\Source - Index.ts:Chrome_WidgetWin_1:Code - Insiders.exe",
-                "priority": 2,
-                "method": 2,
-                "force_sdr": true
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        }
-    ]
+	"current_scene": "Main Scene",
+	"current_program_scene": "Main Scene",
+	"scene_order": [
+		{
+			"name": "Main Scene"
+		},
+		{
+			"name": "Camera"
+		}
+	],
+	"name": "Untitled",
+	"groups": [
+		{
+			"prev_ver": 486604803,
+			"name": "Audio",
+			"uuid": "8dbaaa60-ccd0-4e93-95fa-e02a7926a61e",
+			"id": "group",
+			"versioned_id": "group",
+			"settings": {
+				"id_counter": 0,
+				"custom_size": true,
+				"cx": 0,
+				"cy": 0,
+				"items": [
+					{
+						"name": "Audio Input Capture",
+						"source_uuid": "c721d4a2-91cd-48e8-9d29-f9097855b47a",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 14,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Audio Output Capture",
+						"source_uuid": "b032bf36-8d5c-45cb-83b4-cdae5d41e2dc",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 23,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color-preset": 0,
+							"color": ""
+						}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.show_scene_item.Audio Input Capture": [],
+				"libobs.hide_scene_item.Audio Input Capture": [],
+				"libobs.show_scene_item.Audio Output Capture": [],
+				"libobs.hide_scene_item.Audio Output Capture": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Display",
+			"uuid": "d3e3ab1c-bafc-48b9-b324-83d18891595e",
+			"id": "group",
+			"versioned_id": "group",
+			"settings": {
+				"id_counter": 0,
+				"custom_size": true,
+				"cx": 2577,
+				"cy": 1441,
+				"items": [
+					{
+						"name": "Display Capture",
+						"source_uuid": "b05af187-0e64-4579-a5a4-8c8157b0bf5e",
+						"visible": false,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 35,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "VSCode",
+						"source_uuid": "6771e531-b397-4e5d-b650-d8cd243811a1",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 0.89765644073486328,
+							"y": 0.89784574508666992
+						},
+						"align": 5,
+						"bounds_type": 2,
+						"bounds_align": 9,
+						"bounds": {
+							"x": 2560.0,
+							"y": 1440.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 27,
+						"group_item_backup": false,
+						"scale_filter": "lanczos",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Chrome",
+						"source_uuid": "299b4dc8-1f5c-43a0-85f5-664b2444ca9f",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 479.0
+						},
+						"scale": {
+							"x": 0.599609375,
+							"y": 0.59955751895904541
+						},
+						"align": 5,
+						"bounds_type": 5,
+						"bounds_align": 9,
+						"bounds": {
+							"x": 1540.0,
+							"y": 961.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 28,
+						"group_item_backup": false,
+						"scale_filter": "lanczos",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Camera",
+						"source_uuid": "dc976a91-4599-4442-b066-9752839a85b5",
+						"visible": false,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 2560.0,
+							"y": 1440.0
+						},
+						"scale": {
+							"x": 0.29492196440696716,
+							"y": 0.2951388955116272
+						},
+						"align": 10,
+						"bounds_type": 3,
+						"bounds_align": 9,
+						"bounds": {
+							"x": 1024.0,
+							"y": 360.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 30,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Color Source",
+						"source_uuid": "b107bd83-63b1-4b1b-8093-ca7fa7f6670c",
+						"visible": false,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.3333333730697632,
+							"y": 0.083333313465118408
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 37,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color-preset": 0,
+							"color": ""
+						}
+					},
+					{
+						"name": "Spectralizer",
+						"source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": -11.531534194946289,
+							"y": 1.5199999809265137
+						},
+						"align": 5,
+						"bounds_type": 4,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 481.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 36,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Browser",
+						"source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 1535.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 0.54218769073486328,
+							"y": 0.54259258508682251
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 38,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Terminal",
+						"source_uuid": "6eda37f3-bf23-4ddb-abfb-ccbb41220fa9",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 2576.0,
+							"y": 1440.0
+						},
+						"scale": {
+							"x": 0.59609377384185791,
+							"y": 0.59583336114883423
+						},
+						"align": 10,
+						"bounds_type": 5,
+						"bounds_align": 9,
+						"bounds": {
+							"x": 1041.46875,
+							"y": 882.33880615234375
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 27,
+						"crop_bottom": 0,
+						"id": 29,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Golden Ratio Blue.png",
+						"source_uuid": "b3de0b87-25f3-434f-a66e-111e43f3661f",
+						"visible": false,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.3333333730697632,
+							"y": 1.3333330154418945
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 31,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color-preset": 0,
+							"color": ""
+						}
+					},
+					{
+						"name": "Golden Ratio Red.png",
+						"source_uuid": "ddb2fe65-7ab8-4a29-9bdd-acf58582ea81",
+						"visible": false,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.3333333730697632,
+							"y": 1.3333330154418945
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 32,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color-preset": 0,
+							"color": ""
+						}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.show_scene_item.Display Capture": [],
+				"libobs.hide_scene_item.Display Capture": [],
+				"libobs.show_scene_item.VSCode": [],
+				"libobs.hide_scene_item.VSCode": [],
+				"libobs.show_scene_item.Chrome": [],
+				"libobs.hide_scene_item.Chrome": [],
+				"libobs.show_scene_item.Terminal": [],
+				"libobs.hide_scene_item.Terminal": [],
+				"libobs.show_scene_item.Camera": [],
+				"libobs.hide_scene_item.Camera": [],
+				"libobs.show_scene_item.Color Source": [],
+				"libobs.hide_scene_item.Color Source": [],
+				"libobs.show_scene_item.Spectralizer": [],
+				"libobs.hide_scene_item.Spectralizer": [],
+				"libobs.show_scene_item.Golden Ratio Blue.png": [],
+				"libobs.hide_scene_item.Golden Ratio Blue.png": [],
+				"libobs.show_scene_item.Golden Ratio Red.png": [],
+				"libobs.hide_scene_item.Golden Ratio Red.png": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		}
+	],
+	"quick_transitions": [
+		{
+			"name": "Cut",
+			"duration": 300,
+			"hotkeys": [],
+			"id": 1,
+			"fade_to_black": false
+		},
+		{
+			"name": "Fade",
+			"duration": 300,
+			"hotkeys": [],
+			"id": 2,
+			"fade_to_black": false
+		},
+		{
+			"name": "Fade",
+			"duration": 5000,
+			"hotkeys": [],
+			"id": 3,
+			"fade_to_black": true
+		}
+	],
+	"transitions": [],
+	"saved_projectors": [],
+	"current_transition": "Fade",
+	"transition_duration": 300,
+	"preview_locked": false,
+	"scaling_enabled": false,
+	"scaling_level": 0,
+	"scaling_off_x": 0.0,
+	"scaling_off_y": 0.0,
+	"virtual-camera": {
+		"type": 0,
+		"internal": 0
+	},
+	"modules": {
+		"scripts-tool": [],
+		"output-timer": {
+			"streamTimerHours": 0,
+			"streamTimerMinutes": 0,
+			"streamTimerSeconds": 30,
+			"recordTimerHours": 0,
+			"recordTimerMinutes": 0,
+			"recordTimerSeconds": 30,
+			"autoStartStreamTimer": false,
+			"autoStartRecordTimer": false,
+			"pauseRecordTimer": true
+		},
+		"auto-scene-switcher": {
+			"interval": 300,
+			"non_matching_scene": "Main Scene",
+			"switch_if_not_matching": false,
+			"active": false,
+			"switches": [
+				{
+					"scene": "Main Scene",
+					"window_title": "Bitwarden"
+				}
+			]
+		},
+		"captions": {
+			"source": "",
+			"enabled": false,
+			"lang_id": 1033,
+			"provider": "mssapi"
+		},
+		"advanced-scene-switcher": {
+			"sceneGroups": [],
+			"macroProperties": {
+				"highlightExecuted": false,
+				"highlightConditions": false,
+				"highlightActions": false,
+				"newMacroRegisterHotkey": false
+			},
+			"macros": [
+				{
+					"name": "Focus VSCode",
+					"pause": false,
+					"parallel": true,
+					"onChange": true,
+					"group": false,
+					"dockSettings": {
+						"register": false,
+						"hasRunButton": true,
+						"hasPauseButton": true
+					},
+					"registerHotkeys": false,
+					"pauseHotkey": [],
+					"unpauseHotkey": [],
+					"togglePauseHotkey": [],
+					"conditions": [
+						{
+							"collapsed": true,
+							"id": "process",
+							"logic": 0,
+							"durationModifier": {
+								"time_constraint": 0,
+								"seconds": {
+									"value": {
+										"value": 0.0,
+										"type": 0
+									},
+									"unit": 0,
+									"version": 1
+								}
+							},
+							"process": "Code - Insiders.exe",
+							"focus": true
+						}
+					],
+					"actions": [
+						{
+							"collapsed": true,
+							"id": "source",
+							"source": {
+								"type": 0,
+								"name": "Chrome"
+							},
+							"action": 1,
+							"sourceSettingButton": {
+								"id": "",
+								"description": ""
+							},
+							"settings": ""
+						}
+					]
+				},
+				{
+					"name": "Focus Chrome",
+					"pause": false,
+					"parallel": true,
+					"onChange": true,
+					"group": false,
+					"dockSettings": {
+						"register": false,
+						"hasRunButton": true,
+						"hasPauseButton": true
+					},
+					"registerHotkeys": false,
+					"pauseHotkey": [],
+					"unpauseHotkey": [],
+					"togglePauseHotkey": [],
+					"conditions": [
+						{
+							"collapsed": true,
+							"id": "process",
+							"logic": 0,
+							"durationModifier": {
+								"time_constraint": 0,
+								"seconds": {
+									"value": {
+										"value": 0.0,
+										"type": 0
+									},
+									"unit": 0,
+									"version": 1
+								}
+							},
+							"process": "chrome.exe",
+							"focus": true
+						}
+					],
+					"actions": [
+						{
+							"collapsed": false,
+							"id": "source",
+							"source": {
+								"type": 0,
+								"name": "Chrome"
+							},
+							"action": 0,
+							"sourceSettingButton": {
+								"id": "",
+								"description": ""
+							},
+							"settings": ""
+						}
+					]
+				}
+			],
+			"connections": [],
+			"variables": [],
+			"switches": [],
+			"ignoreWindows": [],
+			"screenRegion": [],
+			"pauseEntries": [],
+			"sceneRoundTrip": [],
+			"sceneTransitions": [],
+			"defaultTransitions": [],
+			"defTransitionDelay": 0,
+			"ignoreIdleWindows": [],
+			"idleTargetType": 0,
+			"idleSceneName": "",
+			"idleTransitionName": "",
+			"idleEnable": false,
+			"idleTime": 60,
+			"executableSwitches": [],
+			"randomSwitches": [],
+			"fileSwitches": [],
+			"readEnabled": false,
+			"readPath": "",
+			"writeEnabled": false,
+			"writePath": "",
+			"mediaSwitches": [],
+			"timeSwitches": [],
+			"audioSwitches": [],
+			"audioFallbackTargetType": 0,
+			"audioFallbackScene": "",
+			"audioFallbackTransition": "",
+			"audioFallbackEnable": false,
+			"audioFallbackDuration": {
+				"value": {
+					"value": 0.0,
+					"type": 0
+				},
+				"unit": 0,
+				"version": 1
+			},
+			"videoSwitches": [],
+			"ServerEnabled": false,
+			"ServerPort": 55555,
+			"LockToIPv4": false,
+			"ClientEnabled": false,
+			"Address": "",
+			"ClientPort": 55555,
+			"SendSceneChange": true,
+			"SendSceneChangeAll": true,
+			"SendPreview": true,
+			"triggers": [],
+			"interval": 50,
+			"non_matching_scene": "",
+			"switch_if_not_matching": 0,
+			"noMatchDelay": {
+				"value": {
+					"value": 0.0,
+					"type": 0
+				},
+				"unit": 0,
+				"version": 1
+			},
+			"cooldown": {
+				"value": {
+					"value": 0.0,
+					"type": 0
+				},
+				"unit": 0,
+				"version": 1
+			},
+			"active": true,
+			"startup_behavior": 0,
+			"autoStartEvent": 0,
+			"verbose": false,
+			"showSystemTrayNotifications": false,
+			"disableHints": false,
+			"warnPluginLoadFailure": true,
+			"hideLegacyTabs": true,
+			"priority0": 10,
+			"priority1": 0,
+			"priority2": 2,
+			"priority3": 8,
+			"priority4": 6,
+			"priority5": 9,
+			"priority6": 7,
+			"priority7": 4,
+			"priority8": 1,
+			"priority9": 5,
+			"priority10": 3,
+			"threadPriority": 3,
+			"transitionOverrideOverride": false,
+			"adjustActiveTransitionType": true,
+			"lastImportPath": "",
+			"startHotkey": [],
+			"stopHotkey": [],
+			"toggleHotkey": [],
+			"upMacroSegmentHotkey": [],
+			"downMacroSegmentHotkey": [],
+			"removeMacroSegmentHotkey": [],
+			"generalTabPos": 0,
+			"macroTabPos": 1,
+			"transitionTabPos": 15,
+			"pauseTabPos": 16,
+			"titleTabPos": 2,
+			"exeTabPos": 3,
+			"regionTabPos": 4,
+			"mediaTabPos": 5,
+			"fileTabPos": 6,
+			"randomTabPos": 7,
+			"timeTabPos": 8,
+			"idleTabPos": 9,
+			"sequenceTabPos": 10,
+			"audioTabPos": 11,
+			"videoTabPos": 12,
+			"networkTabPos": 13,
+			"sceneGroupTabPos": 14,
+			"triggerTabPos": 17,
+			"saveWindowGeo": false,
+			"windowPosX": -55,
+			"windowPosY": 129,
+			"windowWidth": 1400,
+			"windowHeight": 840,
+			"macroActionConditionSplitterPosition": [
+				{
+					"pos": 240
+				},
+				{
+					"pos": 383
+				}
+			],
+			"macroListMacroEditSplitterPosition": [
+				{
+					"pos": 206
+				},
+				{
+					"pos": 1167
+				}
+			],
+			"version": "9bedbf6fb826700944c3136f34504cc9a89c39cb"
+		}
+	},
+	"sources": [
+		{
+			"prev_ver": 486604803,
+			"name": "Audio Input Capture",
+			"uuid": "c721d4a2-91cd-48e8-9d29-f9097855b47a",
+			"id": "wasapi_input_capture",
+			"versioned_id": "wasapi_input_capture",
+			"settings": {
+				"device_id": "{0.0.1.00000000}.{2e0f759b-ca11-4539-9f7a-5181b376ca52}",
+				"use_device_timing": true
+			},
+			"mixers": 255,
+			"sync": -950000000,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": true,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.mute": [],
+				"libobs.unmute": [],
+				"libobs.push-to-mute": [],
+				"libobs.push-to-talk": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Audio Output Capture",
+			"uuid": "b032bf36-8d5c-45cb-83b4-cdae5d41e2dc",
+			"id": "wasapi_output_capture",
+			"versioned_id": "wasapi_output_capture",
+			"settings": {
+				"device_id": "{0.0.0.00000000}.{e3fa894c-a9f9-45a7-8a2d-11cc8de6c2f6}",
+				"use_device_timing": true
+			},
+			"mixers": 255,
+			"sync": 250000000,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.mute": [],
+				"libobs.unmute": [],
+				"libobs.push-to-mute": [],
+				"libobs.push-to-talk": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 2,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Browser",
+			"uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
+			"id": "browser_source",
+			"versioned_id": "browser_source",
+			"settings": {
+				"url": "https://gfycat.com/coolperfectjapanesebeetle",
+				"width": 1920,
+				"height": 1080,
+				"css": "",
+				"restart_when_active": true,
+				"webpage_control_level": 0
+			},
+			"mixers": 255,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.mute": [],
+				"libobs.unmute": [],
+				"libobs.push-to-mute": [],
+				"libobs.push-to-talk": [],
+				"ObsBrowser.Refresh": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Camera",
+			"uuid": "dc976a91-4599-4442-b066-9752839a85b5",
+			"id": "scene",
+			"versioned_id": "scene",
+			"settings": {
+				"id_counter": 1,
+				"custom_size": false,
+				"items": [
+					{
+						"name": "Video Capture Device",
+						"source_uuid": "395bfb62-5271-4522-b687-38cd9d609734",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.3333333730697632,
+							"y": 1.3333333730697632
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 1,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"OBSBasic.SelectScene": [],
+				"libobs.show_scene_item.Video Capture Device": [],
+				"libobs.hide_scene_item.Video Capture Device": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Chrome",
+			"uuid": "299b4dc8-1f5c-43a0-85f5-664b2444ca9f",
+			"id": "window_capture",
+			"versioned_id": "window_capture",
+			"settings": {
+				"window": "baxast · GitHub - Google Chrome:Chrome_WidgetWin_1:chrome.exe",
+				"priority": 2,
+				"method": 2,
+				"force_sdr": true
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": false,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Color Source",
+			"uuid": "b107bd83-63b1-4b1b-8093-ca7fa7f6670c",
+			"id": "color_source",
+			"versioned_id": "color_source_v3",
+			"settings": {
+				"color": 4279369984
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Display Capture",
+			"uuid": "b05af187-0e64-4579-a5a4-8c8157b0bf5e",
+			"id": "monitor_capture",
+			"versioned_id": "monitor_capture",
+			"settings": {
+				"monitor_id": "\\\\?\\DISPLAY#LEN66E8#7&1fa62c60&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}",
+				"force_sdr": false
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Golden Ratio Blue.png",
+			"uuid": "b3de0b87-25f3-434f-a66e-111e43f3661f",
+			"id": "image_source",
+			"versioned_id": "image_source",
+			"settings": {
+				"file": "D:/Developer/Application/NikolaRHristov/OBS/Image/Golden Ratio Blue.png",
+				"unload": true,
+				"linear_alpha": true
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Golden Ratio Red.png",
+			"uuid": "ddb2fe65-7ab8-4a29-9bdd-acf58582ea81",
+			"id": "image_source",
+			"versioned_id": "image_source",
+			"settings": {
+				"file": "D:/Developer/Application/NikolaRHristov/OBS/Image/Golden Ratio Red.png"
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Main Scene",
+			"uuid": "b8aab71b-a6bd-438d-adf4-977c69ec0e18",
+			"id": "scene",
+			"versioned_id": "scene",
+			"settings": {
+				"id_counter": 38,
+				"custom_size": false,
+				"items": [
+					{
+						"name": "Audio Input Capture",
+						"source_uuid": "c721d4a2-91cd-48e8-9d29-f9097855b47a",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 14,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Audio Output Capture",
+						"source_uuid": "b032bf36-8d5c-45cb-83b4-cdae5d41e2dc",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 23,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color-preset": 0,
+							"color": ""
+						}
+					},
+					{
+						"name": "Audio",
+						"source_uuid": "8dbaaa60-ccd0-4e93-95fa-e02a7926a61e",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 17,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"collapsed": true,
+							"color-preset": 0,
+							"color": ""
+						}
+					},
+					{
+						"name": "Display Capture",
+						"source_uuid": "b05af187-0e64-4579-a5a4-8c8157b0bf5e",
+						"visible": false,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 0.99378883838653564,
+							"y": 0.99379312992095947
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 35,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "VSCode",
+						"source_uuid": "6771e531-b397-4e5d-b650-d8cd243811a1",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 0.89208096265792847,
+							"y": 0.89227294921875
+						},
+						"align": 5,
+						"bounds_type": 2,
+						"bounds_align": 9,
+						"bounds": {
+							"x": 2560.0,
+							"y": 1440.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 27,
+						"group_item_backup": true,
+						"scale_filter": "lanczos",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Chrome",
+						"source_uuid": "299b4dc8-1f5c-43a0-85f5-664b2444ca9f",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 476.02691650390625
+						},
+						"scale": {
+							"x": 0.59588509798049927,
+							"y": 0.59583616256713867
+						},
+						"align": 5,
+						"bounds_type": 5,
+						"bounds_align": 9,
+						"bounds": {
+							"x": 1540.0,
+							"y": 961.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 28,
+						"group_item_backup": true,
+						"scale_filter": "lanczos",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Camera",
+						"source_uuid": "dc976a91-4599-4442-b066-9752839a85b5",
+						"visible": false,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 2544.099365234375,
+							"y": 1431.0621337890625
+						},
+						"scale": {
+							"x": 0.29309016466140747,
+							"y": 0.29330700635910034
+						},
+						"align": 10,
+						"bounds_type": 3,
+						"bounds_align": 9,
+						"bounds": {
+							"x": 1024.0,
+							"y": 360.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 30,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Color Source",
+						"source_uuid": "b107bd83-63b1-4b1b-8093-ca7fa7f6670c",
+						"visible": false,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.3250517845153809,
+							"y": 0.082816071808338165
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 37,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color-preset": 0,
+							"color": ""
+						}
+					},
+					{
+						"name": "Spectralizer",
+						"source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": -11.45991039276123,
+							"y": 1.5105655193328857
+						},
+						"align": 5,
+						"bounds_type": 4,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 481.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 36,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Browser",
+						"source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 1525.4658203125,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 0.53882008790969849,
+							"y": 0.53922480344772339
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 38,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Terminal",
+						"source_uuid": "6eda37f3-bf23-4ddb-abfb-ccbb41220fa9",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 2560.0,
+							"y": 1431.0621337890625
+						},
+						"scale": {
+							"x": 0.59239131212234497,
+							"y": 0.59213507175445557
+						},
+						"align": 10,
+						"bounds_type": 5,
+						"bounds_align": 9,
+						"bounds": {
+							"x": 1041.46875,
+							"y": 882.33880615234375
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 27,
+						"crop_bottom": 0,
+						"id": 29,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Golden Ratio Blue.png",
+						"source_uuid": "b3de0b87-25f3-434f-a66e-111e43f3661f",
+						"visible": false,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.3250517845153809,
+							"y": 1.3250571489334106
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 31,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color-preset": 0,
+							"color": ""
+						}
+					},
+					{
+						"name": "Golden Ratio Red.png",
+						"source_uuid": "ddb2fe65-7ab8-4a29-9bdd-acf58582ea81",
+						"visible": false,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.3250517845153809,
+							"y": 1.3250571489334106
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 32,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color-preset": 0,
+							"color": ""
+						}
+					},
+					{
+						"name": "Display",
+						"source_uuid": "d3e3ab1c-bafc-48b9-b324-83d18891595e",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 0.99378883838653564,
+							"y": 0.99379312992095947
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 34,
+						"group_item_backup": false,
+						"scale_filter": "lanczos",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"collapsed": false,
+							"color-preset": 0
+						}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"OBSBasic.SelectScene": [],
+				"libobs.show_scene_item.Audio": [],
+				"libobs.hide_scene_item.Audio": [],
+				"libobs.show_scene_item.Display": [],
+				"libobs.hide_scene_item.Display": [],
+				"libobs.show_scene_item.Browser": [],
+				"libobs.hide_scene_item.Browser": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Spectralizer",
+			"uuid": "ef40192a-c406-40cb-b506-18575345fee2",
+			"id": "spectralizer",
+			"versioned_id": "spectralizer",
+			"settings": {
+				"undo_sname": "Spectralizer",
+				"stereo_space": -2,
+				"color": 4294967295,
+				"detail": 23,
+				"stereo": true,
+				"audio_source": "Audio Output Capture",
+				"filter_mode": 2,
+				"filter_strength": 1.5,
+				"gravity": 0.85999999999999999,
+				"sgs_passes": 1,
+				"sgs_points": 32,
+				"width": 92,
+				"height": 2430,
+				"bar_space": 3,
+				"use_auto_scale": false,
+				"scale_size": 0.215,
+				"scale_boost": 98.498000000000005,
+				"log_freq_scale": true,
+				"log_freq_scale_start": 83.299999999999997,
+				"log_freq_scale_use_hpf": true,
+				"log_freq_scale_hpf_curve": 66.400000000000006,
+				"round_corners": false,
+				"corner_points": 25,
+				"corner_radius": 25.200000000000049
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Terminal",
+			"uuid": "6eda37f3-bf23-4ddb-abfb-ccbb41220fa9",
+			"id": "window_capture",
+			"versioned_id": "window_capture",
+			"settings": {
+				"priority": 2,
+				"window": ".../baxast/baxast:CASCADIA_HOSTING_WINDOW_CLASS:WindowsTerminal.exe",
+				"method": 2,
+				"cursor": true,
+				"force_sdr": true,
+				"compatibility": true,
+				"client_area": false
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Video Capture Device",
+			"uuid": "395bfb62-5271-4522-b687-38cd9d609734",
+			"id": "dshow_input",
+			"versioned_id": "dshow_input",
+			"settings": {
+				"video_device_id": "Rapoo Camera:\\\\?\\usb#22vid_0c45&pid_4653&mi_00#227&bf52a93&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+				"last_video_device_id": "Rapoo Camera:\\\\?\\usb#22vid_0c45&pid_4653&mi_00#227&bf52a93&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+				"flip_vertically": false,
+				"resolution": "2560x1440",
+				"last_resolution": "2560x1440",
+				"buffering": 0,
+				"use_custom_audio_device": true,
+				"audio_device_id": "Microphone (Rapoo Camera):",
+				"frame_interval": -1,
+				"res_type": 0,
+				"video_format": 0,
+				"active": true,
+				"color_space": "default",
+				"color_range": "full",
+				"audio_output_mode": 0,
+				"autorotation": false,
+				"hw_decode": false
+			},
+			"mixers": 255,
+			"sync": 0,
+			"flags": 0,
+			"volume": 0.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": true,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.mute": [],
+				"libobs.unmute": [],
+				"libobs.push-to-mute": [],
+				"libobs.push-to-talk": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 2,
+			"private_settings": {
+				"mixer_hidden": true
+			}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "VSCode",
+			"uuid": "6771e531-b397-4e5d-b650-d8cd243811a1",
+			"id": "window_capture",
+			"versioned_id": "window_capture",
+			"settings": {
+				"window": "D#3A\\Developer - D#3A\\Developer\\app2\\baxast\\astro-critters\\Source - Index.ts:Chrome_WidgetWin_1:Code - Insiders.exe",
+				"priority": 2,
+				"method": 2,
+				"force_sdr": true
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		}
+	]
 }
