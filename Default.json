@@ -1,3075 +1,3075 @@
 {
-    "current_scene": "Capture",
-    "current_program_scene": "Capture",
-    "scene_order": [
-        {
-            "name": "Capture"
-        },
-        {
-            "name": "Main Scene"
-        },
-        {
-            "name": "Scene Visualizer"
-        },
-        {
-            "name": "Scene Anime"
-        },
-        {
-            "name": "Audio"
-        },
-        {
-            "name": "Scene Code"
-        }
-    ],
-    "name": "Default",
-    "groups": [
-        {
-            "prev_ver": 486604803,
-            "name": "Visualizer Blue",
-            "uuid": "48f88116-28a7-4b5d-8e40-91efa789a85d",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 2560,
-                "cy": 451,
-                "items": [
-                    {
-                        "name": "Visualizer",
-                        "source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1280.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.1599453687667847,
-                            "y": 0.17937570810317993
-                        },
-                        "align": 4,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 451.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 185,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.Visualizer": [],
-                "libobs.hide_scene_item.Visualizer": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 486604803,
-                    "name": "Scale To Sound",
-                    "uuid": "1ec3c574-a2bd-4889-801a-7b18f38ce518",
-                    "id": "scale_to_sound",
-                    "versioned_id": "scale_to_sound",
-                    "settings": {
-                        "STS_AUDSRC": "Audio Output Capture",
-                        "STS_MIN_LVL": -8.0,
-                        "STS_MAXLVL": -7.0,
-                        "STS_MINPER": 71,
-                        "STS_INVSCL": true,
-                        "STS_SMOOTH": 0.93000000000000005,
-                        "STS_XPOSAL": 1
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Color Correction",
-                    "uuid": "155d33bd-1552-4031-9560-e6a3d307ad5d",
-                    "id": "color_filter",
-                    "versioned_id": "color_filter_v2",
-                    "settings": {
-                        "color_multiply": 4294901760
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Visualizer Red",
-            "uuid": "330e7b52-bacb-4168-8734-cccf992ef6ec",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 2560,
-                "cy": 451,
-                "items": [
-                    {
-                        "name": "Visualizer",
-                        "source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1280.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.1599454879760742,
-                            "y": 0.17937576770782471
-                        },
-                        "align": 4,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 451.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 186,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.Visualizer": [],
-                "libobs.hide_scene_item.Visualizer": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 486604803,
-                    "name": "Scale To Sound",
-                    "uuid": "2481f787-ea6b-40d0-89c8-ee3aceba81f3",
-                    "id": "scale_to_sound",
-                    "versioned_id": "scale_to_sound",
-                    "settings": {
-                        "STS_AUDSRC": "Audio Output Capture",
-                        "STS_MIN_LVL": -8.5,
-                        "STS_MAXLVL": -7.0,
-                        "STS_MINPER": 90,
-                        "STS_SMOOTH": 0.93000000000000005
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Color Correction",
-                    "uuid": "88bccdb6-d845-442d-9fef-6cfad67b89c2",
-                    "id": "color_filter",
-                    "versioned_id": "color_filter_v2",
-                    "settings": {
-                        "color_multiply": 4278452479
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Group Anime Red",
-            "uuid": "68eeb83d-2d80-4da9-a310-732b4f84eece",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 2560,
-                "cy": 1440,
-                "items": [
-                    {
-                        "name": "Anime",
-                        "source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 0.99999988079071045,
-                            "y": 0.99999988079071045
-                        },
-                        "align": 5,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 1440.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 50,
-                        "crop_right": 16,
-                        "crop_bottom": 40,
-                        "id": 7,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "srgb_off",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.Anime": [],
-                "libobs.hide_scene_item.Anime": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 486604803,
-                    "name": "Scale To Sound",
-                    "uuid": "09ad85c9-ef00-479d-b74a-85909f63dad6",
-                    "id": "scale_to_sound",
-                    "versioned_id": "scale_to_sound",
-                    "settings": {
-                        "STS_AUDSRC": "Audio Output Capture",
-                        "STS_MIN_LVL": -8.5,
-                        "STS_MAXLVL": -7.0,
-                        "STS_MINPER": 90,
-                        "STS_INVSCL": false,
-                        "STS_SMOOTH": 0.93000000000000005
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Color Grading",
-                    "uuid": "8c11a50e-4677-47e1-a2b0-dfc9058a168d",
-                    "id": "streamfx-filter-color-grade",
-                    "versioned_id": "streamfx-filter-color-grade",
-                    "settings": {
-                        "Version": 1688,
-                        "Commit": "g63bc964e",
-                        "Filter.ColorGrade.Tint.Shadow.Red": 100.0,
-                        "Filter.ColorGrade.Tint.Midtone.Red": 1000.0,
-                        "Filter.ColorGrade.Tint.Highlight.Red": 1000.0
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Group Anime Blue",
-            "uuid": "488e7a73-653d-4264-b0a1-7432852f323c",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 2560,
-                "cy": 1440,
-                "items": [
-                    {
-                        "name": "Anime",
-                        "source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 0.99999988079071045,
-                            "y": 0.99999988079071045
-                        },
-                        "align": 5,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 1440.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 50,
-                        "crop_right": 16,
-                        "crop_bottom": 40,
-                        "id": 6,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "srgb_off",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.Anime": [],
-                "libobs.hide_scene_item.Anime": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 486604803,
-                    "name": "Scale To Sound",
-                    "uuid": "76ee5dbd-f006-40e5-8bbf-b1bf6314b27e",
-                    "id": "scale_to_sound",
-                    "versioned_id": "scale_to_sound",
-                    "settings": {
-                        "STS_AUDSRC": "Audio Output Capture",
-                        "STS_MIN_LVL": -8.5,
-                        "STS_MAXLVL": -7.0,
-                        "STS_MINPER": 90,
-                        "STS_INVSCL": true,
-                        "STS_SMOOTH": 0.93000000000000005
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Color Correction",
-                    "uuid": "4c1f7955-7a10-470a-b6e8-02b9015d145d",
-                    "id": "color_filter",
-                    "versioned_id": "color_filter_v2",
-                    "settings": {
-                        "gamma": 0.28000000000000003,
-                        "contrast": 0.22,
-                        "brightness": 0.0028,
-                        "saturation": 0.0,
-                        "opacity": 1.0,
-                        "color_multiply": 4294901760
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": false,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Color Grading",
-                    "uuid": "dac2856e-6f84-49b1-a8f7-28a09e9fb766",
-                    "id": "streamfx-filter-color-grade",
-                    "versioned_id": "streamfx-filter-color-grade",
-                    "settings": {
-                        "Version": 1688,
-                        "Commit": "g63bc964e",
-                        "Filter.ColorGrade.Tint.Shadow.Blue": 100.0,
-                        "Filter.ColorGrade.Tint.Midtone.Blue": 1000.0,
-                        "Filter.ColorGrade.Tint.Highlight.Blue": 1000.0
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Scale To Sound 2",
-                    "uuid": "5d661b76-2cdc-4847-9f1a-3d3a08812585",
-                    "id": "scale_to_sound",
-                    "versioned_id": "scale_to_sound",
-                    "settings": {
-                        "STS_AUDSRC": "Audio Output Capture",
-                        "STS_MIN_LVL": -10.5,
-                        "STS_MINPER": 99,
-                        "STS_MAXPER": 100,
-                        "STS_INVSCL": true
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": false,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Group",
-            "uuid": "06af3746-01ef-4850-a4c4-fa906f49e665",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 2560,
-                "cy": 1440,
-                "items": [
-                    {
-                        "name": "Anime",
-                        "source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 1440.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 50,
-                        "crop_right": 16,
-                        "crop_bottom": 40,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "srgb_off",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.Anime": [],
-                "libobs.hide_scene_item.Anime": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 486604803,
-                    "name": "Scale To Sound",
-                    "uuid": "769f2188-aa75-48fd-9f9b-bd38738ee12e",
-                    "id": "scale_to_sound",
-                    "versioned_id": "scale_to_sound",
-                    "settings": {
-                        "STS_AUDSRC": "Audio Output Capture",
-                        "STS_MIN_LVL": -16.5,
-                        "STS_MAXLVL": -5.5,
-                        "STS_MINPER": 93,
-                        "STS_INVSCL": false,
-                        "STS_SMOOTH": 0.76000000000000001
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": false,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        }
-    ],
-    "quick_transitions": [
-        {
-            "name": "Cut",
-            "duration": 300,
-            "hotkeys": [],
-            "id": 1,
-            "fade_to_black": false
-        },
-        {
-            "name": "Fade",
-            "duration": 300,
-            "hotkeys": [],
-            "id": 2,
-            "fade_to_black": false
-        },
-        {
-            "name": "Fade",
-            "duration": 5000,
-            "hotkeys": [],
-            "id": 3,
-            "fade_to_black": true
-        }
-    ],
-    "transitions": [],
-    "saved_projectors": [],
-    "current_transition": "Fade",
-    "transition_duration": 300,
-    "preview_locked": false,
-    "scaling_enabled": false,
-    "scaling_level": 0,
-    "scaling_off_x": 0.0,
-    "scaling_off_y": 0.0,
-    "virtual-camera": {
-        "type": 0,
-        "internal": 0
-    },
-    "modules": {
-        "scripts-tool": [],
-        "output-timer": {
-            "streamTimerHours": 0,
-            "streamTimerMinutes": 0,
-            "streamTimerSeconds": 30,
-            "recordTimerHours": 0,
-            "recordTimerMinutes": 0,
-            "recordTimerSeconds": 30,
-            "autoStartStreamTimer": false,
-            "autoStartRecordTimer": false,
-            "pauseRecordTimer": true
-        },
-        "auto-scene-switcher": {
-            "interval": 300,
-            "non_matching_scene": "",
-            "switch_if_not_matching": false,
-            "active": false,
-            "switches": []
-        },
-        "captions": {
-            "source": "",
-            "enabled": false,
-            "lang_id": 1033,
-            "provider": "mssapi"
-        },
-        "advanced-scene-switcher": {
-            "sceneGroups": [],
-            "macroProperties": {
-                "highlightExecuted": false,
-                "highlightConditions": false,
-                "highlightActions": false,
-                "newMacroRegisterHotkey": false
-            },
-            "macros": [
-                {
-                    "name": "Focus VSCode",
-                    "pause": false,
-                    "parallel": true,
-                    "onChange": true,
-                    "group": false,
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true
-                    },
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "collapsed": false,
-                            "id": "process",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "process": "Code - Insiders.exe",
-                            "focus": true
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "collapsed": false,
-                            "id": "source",
-                            "source": {
-                                "type": 0,
-                                "name": "Chrome"
-                            },
-                            "action": 1,
-                            "sourceSettingButton": {
-                                "id": "",
-                                "description": ""
-                            },
-                            "settings": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "Focus Chrome",
-                    "pause": false,
-                    "parallel": true,
-                    "onChange": true,
-                    "group": false,
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true
-                    },
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "collapsed": false,
-                            "id": "process",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "process": "chrome.exe",
-                            "focus": true
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "collapsed": false,
-                            "id": "source",
-                            "source": {
-                                "type": 0,
-                                "name": "Chrome"
-                            },
-                            "action": 0,
-                            "sourceSettingButton": {
-                                "id": "",
-                                "description": ""
-                            },
-                            "settings": ""
-                        }
-                    ]
-                }
-            ],
-            "connections": [],
-            "variables": [],
-            "switches": [],
-            "ignoreWindows": [],
-            "screenRegion": [],
-            "pauseEntries": [],
-            "sceneRoundTrip": [],
-            "sceneTransitions": [],
-            "defaultTransitions": [],
-            "defTransitionDelay": 0,
-            "ignoreIdleWindows": [],
-            "idleTargetType": 0,
-            "idleSceneName": "",
-            "idleTransitionName": "",
-            "idleEnable": false,
-            "idleTime": 60,
-            "executableSwitches": [],
-            "randomSwitches": [],
-            "fileSwitches": [],
-            "readEnabled": false,
-            "readPath": "",
-            "writeEnabled": false,
-            "writePath": "",
-            "mediaSwitches": [],
-            "timeSwitches": [],
-            "audioSwitches": [],
-            "audioFallbackTargetType": 0,
-            "audioFallbackScene": "",
-            "audioFallbackTransition": "",
-            "audioFallbackEnable": false,
-            "audioFallbackDuration": {
-                "value": {
-                    "value": 0.0,
-                    "type": 0
-                },
-                "unit": 0,
-                "version": 1
-            },
-            "videoSwitches": [],
-            "ServerEnabled": false,
-            "ServerPort": 55555,
-            "LockToIPv4": false,
-            "ClientEnabled": false,
-            "Address": "",
-            "ClientPort": 55555,
-            "SendSceneChange": true,
-            "SendSceneChangeAll": true,
-            "SendPreview": true,
-            "triggers": [],
-            "interval": 50,
-            "non_matching_scene": "",
-            "switch_if_not_matching": 0,
-            "noMatchDelay": {
-                "value": {
-                    "value": 3.0,
-                    "type": 0
-                },
-                "unit": 0,
-                "version": 1
-            },
-            "cooldown": {
-                "value": {
-                    "value": 0.0,
-                    "type": 0
-                },
-                "unit": 0,
-                "version": 1
-            },
-            "active": true,
-            "startup_behavior": 1,
-            "autoStartEvent": 0,
-            "verbose": false,
-            "showSystemTrayNotifications": false,
-            "disableHints": false,
-            "warnPluginLoadFailure": true,
-            "hideLegacyTabs": true,
-            "priority0": 10,
-            "priority1": 0,
-            "priority2": 2,
-            "priority3": 8,
-            "priority4": 6,
-            "priority5": 9,
-            "priority6": 7,
-            "priority7": 4,
-            "priority8": 1,
-            "priority9": 5,
-            "priority10": 3,
-            "threadPriority": 3,
-            "transitionOverrideOverride": false,
-            "adjustActiveTransitionType": true,
-            "lastImportPath": "",
-            "startHotkey": [],
-            "stopHotkey": [],
-            "toggleHotkey": [],
-            "upMacroSegmentHotkey": [],
-            "downMacroSegmentHotkey": [],
-            "removeMacroSegmentHotkey": [],
-            "generalTabPos": 0,
-            "macroTabPos": 1,
-            "transitionTabPos": 15,
-            "pauseTabPos": 16,
-            "titleTabPos": 2,
-            "exeTabPos": 3,
-            "regionTabPos": 4,
-            "mediaTabPos": 5,
-            "fileTabPos": 6,
-            "randomTabPos": 7,
-            "timeTabPos": 8,
-            "idleTabPos": 9,
-            "sequenceTabPos": 10,
-            "audioTabPos": 11,
-            "videoTabPos": 12,
-            "networkTabPos": 13,
-            "sceneGroupTabPos": 14,
-            "triggerTabPos": 17,
-            "saveWindowGeo": false,
-            "windowPosX": 343,
-            "windowPosY": 140,
-            "windowWidth": 1000,
-            "windowHeight": 600,
-            "macroActionConditionSplitterPosition": [
-                {
-                    "pos": 147
-                },
-                {
-                    "pos": 236
-                }
-            ],
-            "macroListMacroEditSplitterPosition": [
-                {
-                    "pos": 146
-                },
-                {
-                    "pos": 827
-                }
-            ],
-            "version": "9bedbf6fb826700944c3136f34504cc9a89c39cb"
-        }
-    },
-    "sources": [
-        {
-            "prev_ver": 486604803,
-            "name": "Anime",
-            "uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "undo_sname": "Gfycat ",
-                "url": "https://gifme.tv/mobile",
-                "width": 2560,
-                "height": 1440,
-                "fps": 4,
-                "fps_custom": false,
-                "shutdown": false,
-                "restart_when_active": false,
-                "webpage_control_level": 0,
-                "css": "body, html {\n\toverflow:hidden;\n}",
-                "reroute_audio": false
-            },
-            "mixers": 192,
-            "sync": 0,
-            "flags": 0,
-            "volume": 0.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": [],
-                "Blur": [],
-                "Deblur": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 486604803,
-                    "name": "Color Correction",
-                    "uuid": "8abd50d4-cc11-469c-9715-860e7b10ab96",
-                    "id": "color_filter",
-                    "versioned_id": "color_filter_v2",
-                    "settings": {
-                        "gamma": 0.20999999999999999,
-                        "contrast": -0.92000000000000004,
-                        "brightness": -0.0011000000000000001,
-                        "saturation": 0.050000000000000003,
-                        "hue_shift": 0.0
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Sharpen",
-                    "uuid": "b26a2b0b-9266-4f45-9c40-34dbb9500e1f",
-                    "id": "sharpness_filter",
-                    "versioned_id": "sharpness_filter_v2",
-                    "settings": {
-                        "sharpness": 1.0
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Ashmanix Blur Filter",
-                    "uuid": "a0d6a8fb-ced4-4841-8428-c1500f7ac0fc",
-                    "id": "ashmanix_plugin_blur_filter",
-                    "versioned_id": "ashmanix_plugin_blur_filter",
-                    "settings": {
-                        "blur_size": 0.80000000000000004,
-                        "blur_type": 0
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Blur",
-                    "uuid": "b134048e-73d8-4132-956b-aa0d72a547e6",
-                    "id": "move_value_filter",
-                    "versioned_id": "move_value_filter",
-                    "settings": {
-                        "value_type": 2,
-                        "filter": "Ashmanix Blur Filter",
-                        "move_value_type": 2,
-                        "setting_name": "blur_size",
-                        "setting_float_min": 10.0,
-                        "setting_float_max": 5.0999999999999996,
-                        "start_trigger": 0,
-                        "stop_trigger": 0,
-                        "setting_float": 18.0,
-                        "simultaneous_move": "",
-                        "next_move": "Deblur",
-                        "end_delay": 0,
-                        "enabled_match_moving": false,
-                        "duration": 2500,
-                        "easing_match": 1,
-                        "easing_function_match": 5
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": false,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Deblur",
-                    "uuid": "567d9429-5a98-4da7-8e18-3434138c5750",
-                    "id": "move_value_filter",
-                    "versioned_id": "move_value_filter",
-                    "settings": {
-                        "value_type": 2,
-                        "filter": "Ashmanix Blur Filter",
-                        "setting_name": "blur_size",
-                        "setting_float": 0.0,
-                        "next_move": "Blur",
-                        "move_value_type": 1,
-                        "setting_float_max": -0.77706090528863547,
-                        "setting_float_min": -0.77706090528863547,
-                        "end_delay": 0,
-                        "enabled_match_moving": false,
-                        "duration": 1500,
-                        "easing_match": 3,
-                        "easing_function_match": 5,
-                        "blur_size": 0.0
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": false,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Color Grading",
-                    "uuid": "d0ff26e1-f43b-4fa4-aa1d-54a434f04c1b",
-                    "id": "streamfx-filter-color-grade",
-                    "versioned_id": "streamfx-filter-color-grade",
-                    "settings": {
-                        "Version": 1688,
-                        "Commit": "g63bc964e",
-                        "Filter.ColorGrade.Correction.Saturation": 97.439999999999998,
-                        "Filter.ColorGrade.Correction.Lightness": 204.13999999999999
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": false,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Audio",
-            "uuid": "23ee547d-545b-44b6-a27e-60405650f3f2",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 2,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "Audio Input Capture",
-                        "source_uuid": "c721d4a2-91cd-48e8-9d29-f9097855b47a",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Audio Output Capture",
-                        "source_uuid": "b032bf36-8d5c-45cb-83b4-cdae5d41e2dc",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.Audio Input Capture": [],
-                "libobs.hide_scene_item.Audio Input Capture": [],
-                "libobs.show_scene_item.Audio Output Capture": [],
-                "libobs.hide_scene_item.Audio Output Capture": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Audio Input Capture",
-            "uuid": "c721d4a2-91cd-48e8-9d29-f9097855b47a",
-            "id": "wasapi_input_capture",
-            "versioned_id": "wasapi_input_capture",
-            "settings": {
-                "device_id": "{0.0.1.00000000}.{91473c69-0569-4846-b5cd-6fa60afc3467}",
-                "use_device_timing": true
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Audio Output Capture",
-            "uuid": "b032bf36-8d5c-45cb-83b4-cdae5d41e2dc",
-            "id": "wasapi_output_capture",
-            "versioned_id": "wasapi_output_capture",
-            "settings": {
-                "device_id": "{0.0.0.00000000}.{d3e91ea4-6aee-4373-a6a5-e5f7dcc6ed7d}",
-                "use_device_timing": true
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Capture",
-            "uuid": "f77a4227-0474-40c4-ab16-b8f812569e4d",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 7,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "Main Scene",
-                        "source_uuid": "b8aab71b-a6bd-438d-adf4-977c69ec0e18",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.Main Scene": [],
-                "libobs.hide_scene_item.Main Scene": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Chrome",
-            "uuid": "299b4dc8-1f5c-43a0-85f5-664b2444ca9f",
-            "id": "window_capture",
-            "versioned_id": "window_capture",
-            "settings": {
-                "priority": 2,
-                "window": "Payload CMS | Node & React TypeScript Headless CMS - Google Chrome:Chrome_WidgetWin_1:chrome.exe",
-                "method": 2,
-                "force_sdr": true
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": false,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Color Source",
-            "uuid": "219f4cf1-7186-4aa4-8101-7bb449b4534d",
-            "id": "color_source",
-            "versioned_id": "color_source_v3",
-            "settings": {
-                "color": 4294967295
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Color Source 2",
-            "uuid": "3b9456cb-4a1d-42e3-ad40-842291f718a2",
-            "id": "color_source",
-            "versioned_id": "color_source_v3",
-            "settings": {
-                "color": 4291940817
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Golden Ratio Blue.png",
-            "uuid": "b3de0b87-25f3-434f-a66e-111e43f3661f",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "D:/Developer/Application/NikolaRHristov/OBS/Image/Golden Ratio Blue.png",
-                "unload": true,
-                "linear_alpha": true
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Golden Ratio Red.png",
-            "uuid": "ddb2fe65-7ab8-4a29-9bdd-acf58582ea81",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "D:/Developer/Application/NikolaRHristov/OBS/Image/Golden Ratio Red.png"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Main Scene",
-            "uuid": "b8aab71b-a6bd-438d-adf4-977c69ec0e18",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 196,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "Audio",
-                        "source_uuid": "23ee547d-545b-44b6-a27e-60405650f3f2",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 192,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Scene Code",
-                        "source_uuid": "0e4d947a-7c0d-4578-aba1-a881706cbcc7",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 194,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "lighten",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Scene Anime",
-                        "source_uuid": "5db892d7-9e4b-4aeb-bfa9-26ab057fdf28",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1279.75,
-                            "y": 1323.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 8,
-                        "bounds_type": 5,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 1690.5,
-                            "y": 961.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 193,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "additive",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Scene Visualizer",
-                        "source_uuid": "8272f1a2-c6e5-4ad3-9ae4-e008e233a22d",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1280.0,
-                            "y": 984.0
-                        },
-                        "scale": {
-                            "x": 0.96796876192092896,
-                            "y": 0.96805554628372192
-                        },
-                        "align": 4,
-                        "bounds_type": 4,
-                        "bounds_align": 4,
-                        "bounds": {
-                            "x": 1880.0,
-                            "y": 1440.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 191,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "lighten",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Text",
-                        "source_uuid": "32ca732a-14ac-4485-8e84-595c95fbef58",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1280.0,
-                            "y": 21.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 4,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 153,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "additive",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Golden Ratio Blue.png",
-                        "source_uuid": "b3de0b87-25f3-434f-a66e-111e43f3661f",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.3333333730697632,
-                            "y": 1.3333333730697632
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 57,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Golden Ratio Red.png",
-                        "source_uuid": "ddb2fe65-7ab8-4a29-9bdd-acf58582ea81",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.3333333730697632,
-                            "y": 1.3333333730697632
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 58,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "color": "",
-                            "color-preset": 0
-                        }
-                    },
-                    {
-                        "name": "Anime",
-                        "source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 1440.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 50,
-                        "crop_right": 16,
-                        "crop_bottom": 40,
-                        "id": 196,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "srgb_off",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.Audio": [],
-                "libobs.hide_scene_item.Audio": [],
-                "libobs.show_scene_item.Scene Code": [],
-                "libobs.hide_scene_item.Scene Code": [],
-                "libobs.show_scene_item.Scene Anime": [],
-                "libobs.hide_scene_item.Scene Anime": [],
-                "libobs.show_scene_item.Scene Visualizer": [],
-                "libobs.hide_scene_item.Scene Visualizer": [],
-                "libobs.show_scene_item.Text": [],
-                "libobs.hide_scene_item.Text": [],
-                "libobs.show_scene_item.Golden Ratio Blue.png": [],
-                "libobs.hide_scene_item.Golden Ratio Blue.png": [],
-                "libobs.show_scene_item.Golden Ratio Red.png": [],
-                "libobs.hide_scene_item.Golden Ratio Red.png": [],
-                "libobs.show_scene_item.Anime": [],
-                "libobs.hide_scene_item.Anime": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Scene Anime",
-            "uuid": "5db892d7-9e4b-4aeb-bfa9-26ab057fdf28",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 14,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "Color Source",
-                        "source_uuid": "219f4cf1-7186-4aa4-8101-7bb449b4534d",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": -4.76837158203125e-7,
-                            "y": -4.76837158203125e-7
-                        },
-                        "scale": {
-                            "x": 1.3333332538604736,
-                            "y": 1.3333332538604736
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 10,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "lighten",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Anime",
-                        "source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": -142.0,
-                            "y": -80.0
-                        },
-                        "scale": {
-                            "x": 1.111111044883728,
-                            "y": 1.111111044883728
-                        },
-                        "align": 5,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 1440.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 50,
-                        "crop_right": 16,
-                        "crop_bottom": 40,
-                        "id": 7,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "srgb_off",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Group Anime Red",
-                        "source_uuid": "68eeb83d-2d80-4da9-a310-732b4f84eece",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1280.0,
-                            "y": 720.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 0,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 1600.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 8,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "darken",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "collapsed": true
-                        }
-                    },
-                    {
-                        "name": "Anime",
-                        "source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": -8.0,
-                            "y": -5.0
-                        },
-                        "scale": {
-                            "x": 1.0069442987442017,
-                            "y": 1.0069442987442017
-                        },
-                        "align": 5,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 1440.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 50,
-                        "crop_right": 16,
-                        "crop_bottom": 40,
-                        "id": 6,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "srgb_off",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Group Anime Blue",
-                        "source_uuid": "488e7a73-653d-4264-b0a1-7432852f323c",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1280.0,
-                            "y": 720.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 0,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 1450.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 9,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "darken",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "collapsed": true
-                        }
-                    },
-                    {
-                        "name": "Anime",
-                        "source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 1440.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 50,
-                        "crop_right": 16,
-                        "crop_bottom": 40,
-                        "id": 1,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "srgb_off",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Group",
-                        "source_uuid": "06af3746-01ef-4850-a4c4-fa906f49e665",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1280.0,
-                            "y": 720.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 0,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 1440.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 11,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "darken",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "collapsed": false
-                        }
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.Color Source": [],
-                "libobs.hide_scene_item.Color Source": [],
-                "libobs.show_scene_item.Group Anime Red": [],
-                "libobs.hide_scene_item.Group Anime Red": [],
-                "libobs.show_scene_item.Group Anime Blue": [],
-                "libobs.hide_scene_item.Group Anime Blue": [],
-                "libobs.show_scene_item.Group": [],
-                "libobs.hide_scene_item.Group": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Scene Code",
-            "uuid": "0e4d947a-7c0d-4578-aba1-a881706cbcc7",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 3,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "VSCode",
-                        "source_uuid": "6771e531-b397-4e5d-b650-d8cd243811a1",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 64.0,
-                            "y": 27.0
-                        },
-                        "scale": {
-                            "x": 0.89173585176467896,
-                            "y": 0.89165365695953369
-                        },
-                        "align": 5,
-                        "bounds_type": 5,
-                        "bounds_align": 5,
-                        "bounds": {
-                            "x": 2535.0,
-                            "y": 1440.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 46,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Chrome",
-                        "source_uuid": "299b4dc8-1f5c-43a0-85f5-664b2444ca9f",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 475.696533203125
-                        },
-                        "scale": {
-                            "x": 0.59565389156341553,
-                            "y": 0.59542262554168701
-                        },
-                        "align": 5,
-                        "bounds_type": 5,
-                        "bounds_align": 9,
-                        "bounds": {
-                            "x": 1540.0,
-                            "y": 961.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 24,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "additive",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Terminal",
-                        "source_uuid": "6eda37f3-bf23-4ddb-abfb-ccbb41220fa9",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 2560.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 0.59216141700744629,
-                            "y": 0.59172403812408447
-                        },
-                        "align": 6,
-                        "bounds_type": 5,
-                        "bounds_align": 9,
-                        "bounds": {
-                            "x": 1026.0,
-                            "y": 1440.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "additive",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.VSCode": [],
-                "libobs.hide_scene_item.VSCode": [],
-                "libobs.show_scene_item.Chrome": [],
-                "libobs.hide_scene_item.Chrome": [],
-                "libobs.show_scene_item.Terminal": [],
-                "libobs.hide_scene_item.Terminal": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 486604803,
-                    "name": "Color Correction",
-                    "uuid": "911c4a05-d15f-42fc-ab80-9d159e263c97",
-                    "id": "color_filter",
-                    "versioned_id": "color_filter_v2",
-                    "settings": {
-                        "gamma": -0.070000000000000007,
-                        "contrast": 0.040000000000000001,
-                        "saturation": -0.029999999999999999,
-                        "brightness": 0.0
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Scene Visualizer",
-            "uuid": "8272f1a2-c6e5-4ad3-9ae4-e008e233a22d",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 4,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "Color Source 2",
-                        "source_uuid": "3b9456cb-4a1d-42e3-ad40-842291f718a2",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.3333333730697632,
-                            "y": 1.3333333730697632
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 4,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "multiply",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Visualizer",
-                        "source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1280.0,
-                            "y": 115.0
-                        },
-                        "scale": {
-                            "x": 1.1599456071853638,
-                            "y": 0.17937573790550232
-                        },
-                        "align": 4,
-                        "bounds_type": 5,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 371.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "additive",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Visualizer",
-                        "source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1280.0,
-                            "y": 98.0
-                        },
-                        "scale": {
-                            "x": 1.0421385765075684,
-                            "y": 0.16115792095661163
-                        },
-                        "align": 4,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 451.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 186,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Visualizer Red",
-                        "source_uuid": "330e7b52-bacb-4168-8734-cccf992ef6ec",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1280.0,
-                            "y": 300.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 0,
-                        "bounds_type": 4,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2300.0,
-                            "y": 371.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "additive",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "collapsed": true
-                        }
-                    },
-                    {
-                        "name": "Visualizer",
-                        "source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1280.0,
-                            "y": 114.0
-                        },
-                        "scale": {
-                            "x": 0.96057975292205811,
-                            "y": 0.14854550361633301
-                        },
-                        "align": 4,
-                        "bounds_type": 3,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2560.0,
-                            "y": 451.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 185,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Visualizer Blue",
-                        "source_uuid": "48f88116-28a7-4b5d-8e40-91efa789a85d",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1280.0,
-                            "y": 300.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 0,
-                        "bounds_type": 4,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 2120.0,
-                            "y": 371.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "additive",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "collapsed": true
-                        }
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.Color Source 2": [],
-                "libobs.hide_scene_item.Color Source 2": [],
-                "libobs.show_scene_item.Visualizer": [],
-                "libobs.hide_scene_item.Visualizer": [],
-                "libobs.show_scene_item.Visualizer Red": [],
-                "libobs.hide_scene_item.Visualizer Red": [],
-                "libobs.show_scene_item.Visualizer Blue": [],
-                "libobs.hide_scene_item.Visualizer Blue": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 486604803,
-                    "name": "Ashmanix Blur Filter",
-                    "uuid": "05ca77a8-9dc5-4f7a-97d9-cfe526dbe5ac",
-                    "id": "ashmanix_plugin_blur_filter",
-                    "versioned_id": "ashmanix_plugin_blur_filter",
-                    "settings": {
-                        "blur_size": 0.0,
-                        "blur_type": 0
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": false,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Color Correction",
-                    "uuid": "6737ca41-d818-41d0-80c9-bab8a68f9c70",
-                    "id": "color_filter",
-                    "versioned_id": "color_filter_v2",
-                    "settings": {
-                        "gamma": -1.95,
-                        "contrast": -1.27,
-                        "brightness": 0.0,
-                        "saturation": -0.38
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Terminal",
-            "uuid": "6eda37f3-bf23-4ddb-abfb-ccbb41220fa9",
-            "id": "window_capture",
-            "versioned_id": "window_capture",
-            "settings": {
-                "priority": 2,
-                "window": "pwsh in Developer:CASCADIA_HOSTING_WINDOW_CLASS:WindowsTerminal.exe",
-                "method": 2,
-                "cursor": true,
-                "force_sdr": false,
-                "compatibility": true,
-                "client_area": true
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Text",
-            "uuid": "32ca732a-14ac-4485-8e84-595c95fbef58",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v2",
-            "settings": {
-                "text": "Operator is present / ",
-                "font": {
-                    "face": "SauceCodePro NFM Medium",
-                    "style": "Regular",
-                    "size": 48,
-                    "flags": 0
-                }
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "Visualizer",
-            "uuid": "ef40192a-c406-40cb-b506-18575345fee2",
-            "id": "spectralizer",
-            "versioned_id": "spectralizer",
-            "settings": {
-                "undo_sname": "Spectralizer",
-                "stereo_space": -2,
-                "color": 4294967295,
-                "detail": 22,
-                "stereo": true,
-                "audio_source": "Audio Output Capture",
-                "filter_mode": 2,
-                "filter_strength": 1.5,
-                "gravity": 0.81999999999999995,
-                "sgs_passes": 1,
-                "sgs_points": 32,
-                "width": 86,
-                "height": 2533,
-                "bar_space": 15,
-                "use_auto_scale": false,
-                "scale_size": 0.48999999999999999,
-                "scale_boost": 77.471999999999994,
-                "log_freq_scale": true,
-                "log_freq_scale_start": 90.700000000000003,
-                "log_freq_scale_use_hpf": true,
-                "log_freq_scale_hpf_curve": 72.400000000000006,
-                "round_corners": false,
-                "corner_points": 2,
-                "corner_radius": 100.0
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 486604803,
-                    "name": "Ashmanix Blur Filter",
-                    "uuid": "4a5595e4-5131-4f6e-868f-362a95fb2140",
-                    "id": "ashmanix_plugin_blur_filter",
-                    "versioned_id": "ashmanix_plugin_blur_filter",
-                    "settings": {
-                        "blur_size": 0.0,
-                        "blur_type": 0
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": false,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Blur",
-                    "uuid": "21f2a5e2-dfe0-421f-b0af-85a0bc134901",
-                    "id": "streamfx-filter-blur",
-                    "versioned_id": "streamfx-filter-blur",
-                    "settings": {
-                        "Version": 1688,
-                        "Commit": "g63bc964e",
-                        "Filter.Blur.Type": "dual_filtering",
-                        "Filter.Blur.SubType": "area",
-                        "Filter.Blur.Size": 2.0,
-                        "Filter.Blur.Angle": -180.0,
-                        "Filter.Blur.Center.X": 50.0,
-                        "Filter.Blur.Center.Y": 50.0,
-                        "Filter.Blur.StepScale": false,
-                        "Filter.Blur.StepScale.X": 114.47,
-                        "Filter.Blur.StepScale.Y": 515.07000000000005,
-                        "Filter.Blur.Mask": false,
-                        "Filter.Blur.Mask.Type": 2,
-                        "Filter.Blur.Mask.Source": "Anime Red",
-                        "Filter.Blur.Mask.Color": 4294901777
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 486604803,
-                    "name": "Color Correction",
-                    "uuid": "3435a05a-2dbe-4ea1-aaf9-33c7764efa3c",
-                    "id": "color_filter",
-                    "versioned_id": "color_filter_v2",
-                    "settings": {},
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "VSCode",
-            "uuid": "6771e531-b397-4e5d-b650-d8cd243811a1",
-            "id": "window_capture",
-            "versioned_id": "window_capture",
-            "settings": {
-                "window": "D#3A\\Developer - D#3A\\Developer\\app2\\baxast\\astro-critters\\Source - Index.ts:Chrome_WidgetWin_1:Code - Insiders.exe",
-                "priority": 2,
-                "method": 2,
-                "force_sdr": false
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        }
-    ]
+	"current_scene": "Capture",
+	"current_program_scene": "Capture",
+	"scene_order": [
+		{
+			"name": "Capture"
+		},
+		{
+			"name": "Main Scene"
+		},
+		{
+			"name": "Scene Visualizer"
+		},
+		{
+			"name": "Scene Anime"
+		},
+		{
+			"name": "Audio"
+		},
+		{
+			"name": "Scene Code"
+		}
+	],
+	"name": "Default",
+	"groups": [
+		{
+			"prev_ver": 486604803,
+			"name": "Visualizer Blue",
+			"uuid": "48f88116-28a7-4b5d-8e40-91efa789a85d",
+			"id": "group",
+			"versioned_id": "group",
+			"settings": {
+				"id_counter": 0,
+				"custom_size": true,
+				"cx": 2560,
+				"cy": 451,
+				"items": [
+					{
+						"name": "Visualizer",
+						"source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 1280.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.1599453687667847,
+							"y": 0.17937570810317993
+						},
+						"align": 4,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 451.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 185,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.show_scene_item.Visualizer": [],
+				"libobs.hide_scene_item.Visualizer": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {},
+			"filters": [
+				{
+					"prev_ver": 486604803,
+					"name": "Scale To Sound",
+					"uuid": "1ec3c574-a2bd-4889-801a-7b18f38ce518",
+					"id": "scale_to_sound",
+					"versioned_id": "scale_to_sound",
+					"settings": {
+						"STS_AUDSRC": "Audio Output Capture",
+						"STS_MIN_LVL": -8.0,
+						"STS_MAXLVL": -7.0,
+						"STS_MINPER": 71,
+						"STS_INVSCL": true,
+						"STS_SMOOTH": 0.93000000000000005,
+						"STS_XPOSAL": 1
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Color Correction",
+					"uuid": "155d33bd-1552-4031-9560-e6a3d307ad5d",
+					"id": "color_filter",
+					"versioned_id": "color_filter_v2",
+					"settings": {
+						"color_multiply": 4294901760
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				}
+			]
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Visualizer Red",
+			"uuid": "330e7b52-bacb-4168-8734-cccf992ef6ec",
+			"id": "group",
+			"versioned_id": "group",
+			"settings": {
+				"id_counter": 0,
+				"custom_size": true,
+				"cx": 2560,
+				"cy": 451,
+				"items": [
+					{
+						"name": "Visualizer",
+						"source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 1280.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.1599454879760742,
+							"y": 0.17937576770782471
+						},
+						"align": 4,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 451.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 186,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.show_scene_item.Visualizer": [],
+				"libobs.hide_scene_item.Visualizer": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {},
+			"filters": [
+				{
+					"prev_ver": 486604803,
+					"name": "Scale To Sound",
+					"uuid": "2481f787-ea6b-40d0-89c8-ee3aceba81f3",
+					"id": "scale_to_sound",
+					"versioned_id": "scale_to_sound",
+					"settings": {
+						"STS_AUDSRC": "Audio Output Capture",
+						"STS_MIN_LVL": -8.5,
+						"STS_MAXLVL": -7.0,
+						"STS_MINPER": 90,
+						"STS_SMOOTH": 0.93000000000000005
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Color Correction",
+					"uuid": "88bccdb6-d845-442d-9fef-6cfad67b89c2",
+					"id": "color_filter",
+					"versioned_id": "color_filter_v2",
+					"settings": {
+						"color_multiply": 4278452479
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				}
+			]
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Group Anime Red",
+			"uuid": "68eeb83d-2d80-4da9-a310-732b4f84eece",
+			"id": "group",
+			"versioned_id": "group",
+			"settings": {
+				"id_counter": 0,
+				"custom_size": true,
+				"cx": 2560,
+				"cy": 1440,
+				"items": [
+					{
+						"name": "Anime",
+						"source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 0.99999988079071045,
+							"y": 0.99999988079071045
+						},
+						"align": 5,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 1440.0
+						},
+						"crop_left": 0,
+						"crop_top": 50,
+						"crop_right": 16,
+						"crop_bottom": 40,
+						"id": 7,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "srgb_off",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.show_scene_item.Anime": [],
+				"libobs.hide_scene_item.Anime": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {},
+			"filters": [
+				{
+					"prev_ver": 486604803,
+					"name": "Scale To Sound",
+					"uuid": "09ad85c9-ef00-479d-b74a-85909f63dad6",
+					"id": "scale_to_sound",
+					"versioned_id": "scale_to_sound",
+					"settings": {
+						"STS_AUDSRC": "Audio Output Capture",
+						"STS_MIN_LVL": -8.5,
+						"STS_MAXLVL": -7.0,
+						"STS_MINPER": 90,
+						"STS_INVSCL": false,
+						"STS_SMOOTH": 0.93000000000000005
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Color Grading",
+					"uuid": "8c11a50e-4677-47e1-a2b0-dfc9058a168d",
+					"id": "streamfx-filter-color-grade",
+					"versioned_id": "streamfx-filter-color-grade",
+					"settings": {
+						"Version": 1688,
+						"Commit": "g63bc964e",
+						"Filter.ColorGrade.Tint.Shadow.Red": 100.0,
+						"Filter.ColorGrade.Tint.Midtone.Red": 1000.0,
+						"Filter.ColorGrade.Tint.Highlight.Red": 1000.0
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				}
+			]
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Group Anime Blue",
+			"uuid": "488e7a73-653d-4264-b0a1-7432852f323c",
+			"id": "group",
+			"versioned_id": "group",
+			"settings": {
+				"id_counter": 0,
+				"custom_size": true,
+				"cx": 2560,
+				"cy": 1440,
+				"items": [
+					{
+						"name": "Anime",
+						"source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 0.99999988079071045,
+							"y": 0.99999988079071045
+						},
+						"align": 5,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 1440.0
+						},
+						"crop_left": 0,
+						"crop_top": 50,
+						"crop_right": 16,
+						"crop_bottom": 40,
+						"id": 6,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "srgb_off",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.show_scene_item.Anime": [],
+				"libobs.hide_scene_item.Anime": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {},
+			"filters": [
+				{
+					"prev_ver": 486604803,
+					"name": "Scale To Sound",
+					"uuid": "76ee5dbd-f006-40e5-8bbf-b1bf6314b27e",
+					"id": "scale_to_sound",
+					"versioned_id": "scale_to_sound",
+					"settings": {
+						"STS_AUDSRC": "Audio Output Capture",
+						"STS_MIN_LVL": -8.5,
+						"STS_MAXLVL": -7.0,
+						"STS_MINPER": 90,
+						"STS_INVSCL": true,
+						"STS_SMOOTH": 0.93000000000000005
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Color Correction",
+					"uuid": "4c1f7955-7a10-470a-b6e8-02b9015d145d",
+					"id": "color_filter",
+					"versioned_id": "color_filter_v2",
+					"settings": {
+						"gamma": 0.28000000000000003,
+						"contrast": 0.22,
+						"brightness": 0.0028,
+						"saturation": 0.0,
+						"opacity": 1.0,
+						"color_multiply": 4294901760
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": false,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Color Grading",
+					"uuid": "dac2856e-6f84-49b1-a8f7-28a09e9fb766",
+					"id": "streamfx-filter-color-grade",
+					"versioned_id": "streamfx-filter-color-grade",
+					"settings": {
+						"Version": 1688,
+						"Commit": "g63bc964e",
+						"Filter.ColorGrade.Tint.Shadow.Blue": 100.0,
+						"Filter.ColorGrade.Tint.Midtone.Blue": 1000.0,
+						"Filter.ColorGrade.Tint.Highlight.Blue": 1000.0
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Scale To Sound 2",
+					"uuid": "5d661b76-2cdc-4847-9f1a-3d3a08812585",
+					"id": "scale_to_sound",
+					"versioned_id": "scale_to_sound",
+					"settings": {
+						"STS_AUDSRC": "Audio Output Capture",
+						"STS_MIN_LVL": -10.5,
+						"STS_MINPER": 99,
+						"STS_MAXPER": 100,
+						"STS_INVSCL": true
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": false,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				}
+			]
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Group",
+			"uuid": "06af3746-01ef-4850-a4c4-fa906f49e665",
+			"id": "group",
+			"versioned_id": "group",
+			"settings": {
+				"id_counter": 0,
+				"custom_size": true,
+				"cx": 2560,
+				"cy": 1440,
+				"items": [
+					{
+						"name": "Anime",
+						"source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 1440.0
+						},
+						"crop_left": 0,
+						"crop_top": 50,
+						"crop_right": 16,
+						"crop_bottom": 40,
+						"id": 1,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "srgb_off",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.show_scene_item.Anime": [],
+				"libobs.hide_scene_item.Anime": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {},
+			"filters": [
+				{
+					"prev_ver": 486604803,
+					"name": "Scale To Sound",
+					"uuid": "769f2188-aa75-48fd-9f9b-bd38738ee12e",
+					"id": "scale_to_sound",
+					"versioned_id": "scale_to_sound",
+					"settings": {
+						"STS_AUDSRC": "Audio Output Capture",
+						"STS_MIN_LVL": -16.5,
+						"STS_MAXLVL": -5.5,
+						"STS_MINPER": 93,
+						"STS_INVSCL": false,
+						"STS_SMOOTH": 0.76000000000000001
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": false,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				}
+			]
+		}
+	],
+	"quick_transitions": [
+		{
+			"name": "Cut",
+			"duration": 300,
+			"hotkeys": [],
+			"id": 1,
+			"fade_to_black": false
+		},
+		{
+			"name": "Fade",
+			"duration": 300,
+			"hotkeys": [],
+			"id": 2,
+			"fade_to_black": false
+		},
+		{
+			"name": "Fade",
+			"duration": 5000,
+			"hotkeys": [],
+			"id": 3,
+			"fade_to_black": true
+		}
+	],
+	"transitions": [],
+	"saved_projectors": [],
+	"current_transition": "Fade",
+	"transition_duration": 300,
+	"preview_locked": false,
+	"scaling_enabled": false,
+	"scaling_level": 0,
+	"scaling_off_x": 0.0,
+	"scaling_off_y": 0.0,
+	"virtual-camera": {
+		"type": 0,
+		"internal": 0
+	},
+	"modules": {
+		"scripts-tool": [],
+		"output-timer": {
+			"streamTimerHours": 0,
+			"streamTimerMinutes": 0,
+			"streamTimerSeconds": 30,
+			"recordTimerHours": 0,
+			"recordTimerMinutes": 0,
+			"recordTimerSeconds": 30,
+			"autoStartStreamTimer": false,
+			"autoStartRecordTimer": false,
+			"pauseRecordTimer": true
+		},
+		"auto-scene-switcher": {
+			"interval": 300,
+			"non_matching_scene": "",
+			"switch_if_not_matching": false,
+			"active": false,
+			"switches": []
+		},
+		"captions": {
+			"source": "",
+			"enabled": false,
+			"lang_id": 1033,
+			"provider": "mssapi"
+		},
+		"advanced-scene-switcher": {
+			"sceneGroups": [],
+			"macroProperties": {
+				"highlightExecuted": false,
+				"highlightConditions": false,
+				"highlightActions": false,
+				"newMacroRegisterHotkey": false
+			},
+			"macros": [
+				{
+					"name": "Focus VSCode",
+					"pause": false,
+					"parallel": true,
+					"onChange": true,
+					"group": false,
+					"dockSettings": {
+						"register": false,
+						"hasRunButton": true,
+						"hasPauseButton": true
+					},
+					"registerHotkeys": false,
+					"pauseHotkey": [],
+					"unpauseHotkey": [],
+					"togglePauseHotkey": [],
+					"conditions": [
+						{
+							"collapsed": false,
+							"id": "process",
+							"logic": 0,
+							"durationModifier": {
+								"time_constraint": 0,
+								"seconds": {
+									"value": {
+										"value": 0.0,
+										"type": 0
+									},
+									"unit": 0,
+									"version": 1
+								}
+							},
+							"process": "Code - Insiders.exe",
+							"focus": true
+						}
+					],
+					"actions": [
+						{
+							"collapsed": false,
+							"id": "source",
+							"source": {
+								"type": 0,
+								"name": "Chrome"
+							},
+							"action": 1,
+							"sourceSettingButton": {
+								"id": "",
+								"description": ""
+							},
+							"settings": ""
+						}
+					]
+				},
+				{
+					"name": "Focus Chrome",
+					"pause": false,
+					"parallel": true,
+					"onChange": true,
+					"group": false,
+					"dockSettings": {
+						"register": false,
+						"hasRunButton": true,
+						"hasPauseButton": true
+					},
+					"registerHotkeys": false,
+					"pauseHotkey": [],
+					"unpauseHotkey": [],
+					"togglePauseHotkey": [],
+					"conditions": [
+						{
+							"collapsed": false,
+							"id": "process",
+							"logic": 0,
+							"durationModifier": {
+								"time_constraint": 0,
+								"seconds": {
+									"value": {
+										"value": 0.0,
+										"type": 0
+									},
+									"unit": 0,
+									"version": 1
+								}
+							},
+							"process": "chrome.exe",
+							"focus": true
+						}
+					],
+					"actions": [
+						{
+							"collapsed": false,
+							"id": "source",
+							"source": {
+								"type": 0,
+								"name": "Chrome"
+							},
+							"action": 0,
+							"sourceSettingButton": {
+								"id": "",
+								"description": ""
+							},
+							"settings": ""
+						}
+					]
+				}
+			],
+			"connections": [],
+			"variables": [],
+			"switches": [],
+			"ignoreWindows": [],
+			"screenRegion": [],
+			"pauseEntries": [],
+			"sceneRoundTrip": [],
+			"sceneTransitions": [],
+			"defaultTransitions": [],
+			"defTransitionDelay": 0,
+			"ignoreIdleWindows": [],
+			"idleTargetType": 0,
+			"idleSceneName": "",
+			"idleTransitionName": "",
+			"idleEnable": false,
+			"idleTime": 60,
+			"executableSwitches": [],
+			"randomSwitches": [],
+			"fileSwitches": [],
+			"readEnabled": false,
+			"readPath": "",
+			"writeEnabled": false,
+			"writePath": "",
+			"mediaSwitches": [],
+			"timeSwitches": [],
+			"audioSwitches": [],
+			"audioFallbackTargetType": 0,
+			"audioFallbackScene": "",
+			"audioFallbackTransition": "",
+			"audioFallbackEnable": false,
+			"audioFallbackDuration": {
+				"value": {
+					"value": 0.0,
+					"type": 0
+				},
+				"unit": 0,
+				"version": 1
+			},
+			"videoSwitches": [],
+			"ServerEnabled": false,
+			"ServerPort": 55555,
+			"LockToIPv4": false,
+			"ClientEnabled": false,
+			"Address": "",
+			"ClientPort": 55555,
+			"SendSceneChange": true,
+			"SendSceneChangeAll": true,
+			"SendPreview": true,
+			"triggers": [],
+			"interval": 50,
+			"non_matching_scene": "",
+			"switch_if_not_matching": 0,
+			"noMatchDelay": {
+				"value": {
+					"value": 3.0,
+					"type": 0
+				},
+				"unit": 0,
+				"version": 1
+			},
+			"cooldown": {
+				"value": {
+					"value": 0.0,
+					"type": 0
+				},
+				"unit": 0,
+				"version": 1
+			},
+			"active": true,
+			"startup_behavior": 1,
+			"autoStartEvent": 0,
+			"verbose": false,
+			"showSystemTrayNotifications": false,
+			"disableHints": false,
+			"warnPluginLoadFailure": true,
+			"hideLegacyTabs": true,
+			"priority0": 10,
+			"priority1": 0,
+			"priority2": 2,
+			"priority3": 8,
+			"priority4": 6,
+			"priority5": 9,
+			"priority6": 7,
+			"priority7": 4,
+			"priority8": 1,
+			"priority9": 5,
+			"priority10": 3,
+			"threadPriority": 3,
+			"transitionOverrideOverride": false,
+			"adjustActiveTransitionType": true,
+			"lastImportPath": "",
+			"startHotkey": [],
+			"stopHotkey": [],
+			"toggleHotkey": [],
+			"upMacroSegmentHotkey": [],
+			"downMacroSegmentHotkey": [],
+			"removeMacroSegmentHotkey": [],
+			"generalTabPos": 0,
+			"macroTabPos": 1,
+			"transitionTabPos": 15,
+			"pauseTabPos": 16,
+			"titleTabPos": 2,
+			"exeTabPos": 3,
+			"regionTabPos": 4,
+			"mediaTabPos": 5,
+			"fileTabPos": 6,
+			"randomTabPos": 7,
+			"timeTabPos": 8,
+			"idleTabPos": 9,
+			"sequenceTabPos": 10,
+			"audioTabPos": 11,
+			"videoTabPos": 12,
+			"networkTabPos": 13,
+			"sceneGroupTabPos": 14,
+			"triggerTabPos": 17,
+			"saveWindowGeo": false,
+			"windowPosX": 343,
+			"windowPosY": 140,
+			"windowWidth": 1000,
+			"windowHeight": 600,
+			"macroActionConditionSplitterPosition": [
+				{
+					"pos": 147
+				},
+				{
+					"pos": 236
+				}
+			],
+			"macroListMacroEditSplitterPosition": [
+				{
+					"pos": 146
+				},
+				{
+					"pos": 827
+				}
+			],
+			"version": "9bedbf6fb826700944c3136f34504cc9a89c39cb"
+		}
+	},
+	"sources": [
+		{
+			"prev_ver": 486604803,
+			"name": "Anime",
+			"uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
+			"id": "browser_source",
+			"versioned_id": "browser_source",
+			"settings": {
+				"undo_sname": "Gfycat ",
+				"url": "https://gifme.tv/mobile",
+				"width": 2560,
+				"height": 1440,
+				"fps": 4,
+				"fps_custom": false,
+				"shutdown": false,
+				"restart_when_active": false,
+				"webpage_control_level": 0,
+				"css": "body, html {\n\toverflow:hidden;\n}",
+				"reroute_audio": false
+			},
+			"mixers": 192,
+			"sync": 0,
+			"flags": 0,
+			"volume": 0.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.mute": [],
+				"libobs.unmute": [],
+				"libobs.push-to-mute": [],
+				"libobs.push-to-talk": [],
+				"ObsBrowser.Refresh": [],
+				"Blur": [],
+				"Deblur": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {},
+			"filters": [
+				{
+					"prev_ver": 486604803,
+					"name": "Color Correction",
+					"uuid": "8abd50d4-cc11-469c-9715-860e7b10ab96",
+					"id": "color_filter",
+					"versioned_id": "color_filter_v2",
+					"settings": {
+						"gamma": 0.20999999999999999,
+						"contrast": -0.92000000000000004,
+						"brightness": -0.0011000000000000001,
+						"saturation": 0.050000000000000003,
+						"hue_shift": 0.0
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Sharpen",
+					"uuid": "b26a2b0b-9266-4f45-9c40-34dbb9500e1f",
+					"id": "sharpness_filter",
+					"versioned_id": "sharpness_filter_v2",
+					"settings": {
+						"sharpness": 1.0
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Ashmanix Blur Filter",
+					"uuid": "a0d6a8fb-ced4-4841-8428-c1500f7ac0fc",
+					"id": "ashmanix_plugin_blur_filter",
+					"versioned_id": "ashmanix_plugin_blur_filter",
+					"settings": {
+						"blur_size": 0.80000000000000004,
+						"blur_type": 0
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Blur",
+					"uuid": "b134048e-73d8-4132-956b-aa0d72a547e6",
+					"id": "move_value_filter",
+					"versioned_id": "move_value_filter",
+					"settings": {
+						"value_type": 2,
+						"filter": "Ashmanix Blur Filter",
+						"move_value_type": 2,
+						"setting_name": "blur_size",
+						"setting_float_min": 10.0,
+						"setting_float_max": 5.0999999999999996,
+						"start_trigger": 0,
+						"stop_trigger": 0,
+						"setting_float": 18.0,
+						"simultaneous_move": "",
+						"next_move": "Deblur",
+						"end_delay": 0,
+						"enabled_match_moving": false,
+						"duration": 2500,
+						"easing_match": 1,
+						"easing_function_match": 5
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": false,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Deblur",
+					"uuid": "567d9429-5a98-4da7-8e18-3434138c5750",
+					"id": "move_value_filter",
+					"versioned_id": "move_value_filter",
+					"settings": {
+						"value_type": 2,
+						"filter": "Ashmanix Blur Filter",
+						"setting_name": "blur_size",
+						"setting_float": 0.0,
+						"next_move": "Blur",
+						"move_value_type": 1,
+						"setting_float_max": -0.77706090528863547,
+						"setting_float_min": -0.77706090528863547,
+						"end_delay": 0,
+						"enabled_match_moving": false,
+						"duration": 1500,
+						"easing_match": 3,
+						"easing_function_match": 5,
+						"blur_size": 0.0
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": false,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Color Grading",
+					"uuid": "d0ff26e1-f43b-4fa4-aa1d-54a434f04c1b",
+					"id": "streamfx-filter-color-grade",
+					"versioned_id": "streamfx-filter-color-grade",
+					"settings": {
+						"Version": 1688,
+						"Commit": "g63bc964e",
+						"Filter.ColorGrade.Correction.Saturation": 97.439999999999998,
+						"Filter.ColorGrade.Correction.Lightness": 204.13999999999999
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": false,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				}
+			]
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Audio",
+			"uuid": "23ee547d-545b-44b6-a27e-60405650f3f2",
+			"id": "scene",
+			"versioned_id": "scene",
+			"settings": {
+				"id_counter": 2,
+				"custom_size": false,
+				"items": [
+					{
+						"name": "Audio Input Capture",
+						"source_uuid": "c721d4a2-91cd-48e8-9d29-f9097855b47a",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 1,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Audio Output Capture",
+						"source_uuid": "b032bf36-8d5c-45cb-83b4-cdae5d41e2dc",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 2,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"OBSBasic.SelectScene": [],
+				"libobs.show_scene_item.Audio Input Capture": [],
+				"libobs.hide_scene_item.Audio Input Capture": [],
+				"libobs.show_scene_item.Audio Output Capture": [],
+				"libobs.hide_scene_item.Audio Output Capture": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Audio Input Capture",
+			"uuid": "c721d4a2-91cd-48e8-9d29-f9097855b47a",
+			"id": "wasapi_input_capture",
+			"versioned_id": "wasapi_input_capture",
+			"settings": {
+				"device_id": "{0.0.1.00000000}.{91473c69-0569-4846-b5cd-6fa60afc3467}",
+				"use_device_timing": true
+			},
+			"mixers": 255,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.mute": [],
+				"libobs.unmute": [],
+				"libobs.push-to-mute": [],
+				"libobs.push-to-talk": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Audio Output Capture",
+			"uuid": "b032bf36-8d5c-45cb-83b4-cdae5d41e2dc",
+			"id": "wasapi_output_capture",
+			"versioned_id": "wasapi_output_capture",
+			"settings": {
+				"device_id": "{0.0.0.00000000}.{d3e91ea4-6aee-4373-a6a5-e5f7dcc6ed7d}",
+				"use_device_timing": true
+			},
+			"mixers": 255,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"libobs.mute": [],
+				"libobs.unmute": [],
+				"libobs.push-to-mute": [],
+				"libobs.push-to-talk": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Capture",
+			"uuid": "f77a4227-0474-40c4-ab16-b8f812569e4d",
+			"id": "scene",
+			"versioned_id": "scene",
+			"settings": {
+				"id_counter": 7,
+				"custom_size": false,
+				"items": [
+					{
+						"name": "Main Scene",
+						"source_uuid": "b8aab71b-a6bd-438d-adf4-977c69ec0e18",
+						"visible": true,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 1,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"OBSBasic.SelectScene": [],
+				"libobs.show_scene_item.Main Scene": [],
+				"libobs.hide_scene_item.Main Scene": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Chrome",
+			"uuid": "299b4dc8-1f5c-43a0-85f5-664b2444ca9f",
+			"id": "window_capture",
+			"versioned_id": "window_capture",
+			"settings": {
+				"priority": 2,
+				"window": "Payload CMS | Node & React TypeScript Headless CMS - Google Chrome:Chrome_WidgetWin_1:chrome.exe",
+				"method": 2,
+				"force_sdr": true
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": false,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Color Source",
+			"uuid": "219f4cf1-7186-4aa4-8101-7bb449b4534d",
+			"id": "color_source",
+			"versioned_id": "color_source_v3",
+			"settings": {
+				"color": 4294967295
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Color Source 2",
+			"uuid": "3b9456cb-4a1d-42e3-ad40-842291f718a2",
+			"id": "color_source",
+			"versioned_id": "color_source_v3",
+			"settings": {
+				"color": 4291940817
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Golden Ratio Blue.png",
+			"uuid": "b3de0b87-25f3-434f-a66e-111e43f3661f",
+			"id": "image_source",
+			"versioned_id": "image_source",
+			"settings": {
+				"file": "D:/Developer/Application/NikolaRHristov/OBS/Image/Golden Ratio Blue.png",
+				"unload": true,
+				"linear_alpha": true
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Golden Ratio Red.png",
+			"uuid": "ddb2fe65-7ab8-4a29-9bdd-acf58582ea81",
+			"id": "image_source",
+			"versioned_id": "image_source",
+			"settings": {
+				"file": "D:/Developer/Application/NikolaRHristov/OBS/Image/Golden Ratio Red.png"
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Main Scene",
+			"uuid": "b8aab71b-a6bd-438d-adf4-977c69ec0e18",
+			"id": "scene",
+			"versioned_id": "scene",
+			"settings": {
+				"id_counter": 196,
+				"custom_size": false,
+				"items": [
+					{
+						"name": "Audio",
+						"source_uuid": "23ee547d-545b-44b6-a27e-60405650f3f2",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 192,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Scene Code",
+						"source_uuid": "0e4d947a-7c0d-4578-aba1-a881706cbcc7",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 194,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "lighten",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Scene Anime",
+						"source_uuid": "5db892d7-9e4b-4aeb-bfa9-26ab057fdf28",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 1279.75,
+							"y": 1323.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 8,
+						"bounds_type": 5,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 1690.5,
+							"y": 961.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 193,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "additive",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Scene Visualizer",
+						"source_uuid": "8272f1a2-c6e5-4ad3-9ae4-e008e233a22d",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 1280.0,
+							"y": 984.0
+						},
+						"scale": {
+							"x": 0.96796876192092896,
+							"y": 0.96805554628372192
+						},
+						"align": 4,
+						"bounds_type": 4,
+						"bounds_align": 4,
+						"bounds": {
+							"x": 1880.0,
+							"y": 1440.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 191,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "lighten",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Text",
+						"source_uuid": "32ca732a-14ac-4485-8e84-595c95fbef58",
+						"visible": false,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 1280.0,
+							"y": 21.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 4,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 153,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "additive",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Golden Ratio Blue.png",
+						"source_uuid": "b3de0b87-25f3-434f-a66e-111e43f3661f",
+						"visible": false,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.3333333730697632,
+							"y": 1.3333333730697632
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 57,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Golden Ratio Red.png",
+						"source_uuid": "ddb2fe65-7ab8-4a29-9bdd-acf58582ea81",
+						"visible": false,
+						"locked": true,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.3333333730697632,
+							"y": 1.3333333730697632
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 58,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"color": "",
+							"color-preset": 0
+						}
+					},
+					{
+						"name": "Anime",
+						"source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
+						"visible": false,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 1440.0
+						},
+						"crop_left": 0,
+						"crop_top": 50,
+						"crop_right": 16,
+						"crop_bottom": 40,
+						"id": 196,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "srgb_off",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"OBSBasic.SelectScene": [],
+				"libobs.show_scene_item.Audio": [],
+				"libobs.hide_scene_item.Audio": [],
+				"libobs.show_scene_item.Scene Code": [],
+				"libobs.hide_scene_item.Scene Code": [],
+				"libobs.show_scene_item.Scene Anime": [],
+				"libobs.hide_scene_item.Scene Anime": [],
+				"libobs.show_scene_item.Scene Visualizer": [],
+				"libobs.hide_scene_item.Scene Visualizer": [],
+				"libobs.show_scene_item.Text": [],
+				"libobs.hide_scene_item.Text": [],
+				"libobs.show_scene_item.Golden Ratio Blue.png": [],
+				"libobs.hide_scene_item.Golden Ratio Blue.png": [],
+				"libobs.show_scene_item.Golden Ratio Red.png": [],
+				"libobs.hide_scene_item.Golden Ratio Red.png": [],
+				"libobs.show_scene_item.Anime": [],
+				"libobs.hide_scene_item.Anime": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Scene Anime",
+			"uuid": "5db892d7-9e4b-4aeb-bfa9-26ab057fdf28",
+			"id": "scene",
+			"versioned_id": "scene",
+			"settings": {
+				"id_counter": 14,
+				"custom_size": false,
+				"items": [
+					{
+						"name": "Color Source",
+						"source_uuid": "219f4cf1-7186-4aa4-8101-7bb449b4534d",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": -4.76837158203125e-7,
+							"y": -4.76837158203125e-7
+						},
+						"scale": {
+							"x": 1.3333332538604736,
+							"y": 1.3333332538604736
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 10,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "lighten",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Anime",
+						"source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": -142.0,
+							"y": -80.0
+						},
+						"scale": {
+							"x": 1.111111044883728,
+							"y": 1.111111044883728
+						},
+						"align": 5,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 1440.0
+						},
+						"crop_left": 0,
+						"crop_top": 50,
+						"crop_right": 16,
+						"crop_bottom": 40,
+						"id": 7,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "srgb_off",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Group Anime Red",
+						"source_uuid": "68eeb83d-2d80-4da9-a310-732b4f84eece",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 1280.0,
+							"y": 720.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 0,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 1600.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 8,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "darken",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"collapsed": true
+						}
+					},
+					{
+						"name": "Anime",
+						"source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": -8.0,
+							"y": -5.0
+						},
+						"scale": {
+							"x": 1.0069442987442017,
+							"y": 1.0069442987442017
+						},
+						"align": 5,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 1440.0
+						},
+						"crop_left": 0,
+						"crop_top": 50,
+						"crop_right": 16,
+						"crop_bottom": 40,
+						"id": 6,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "srgb_off",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Group Anime Blue",
+						"source_uuid": "488e7a73-653d-4264-b0a1-7432852f323c",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 1280.0,
+							"y": 720.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 0,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 1450.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 9,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "darken",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"collapsed": true
+						}
+					},
+					{
+						"name": "Anime",
+						"source_uuid": "4e78d237-620a-438b-a2be-be0183f3ef1e",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 5,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 1440.0
+						},
+						"crop_left": 0,
+						"crop_top": 50,
+						"crop_right": 16,
+						"crop_bottom": 40,
+						"id": 1,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "srgb_off",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Group",
+						"source_uuid": "06af3746-01ef-4850-a4c4-fa906f49e665",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 1280.0,
+							"y": 720.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 0,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 1440.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 11,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "darken",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"collapsed": false
+						}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"OBSBasic.SelectScene": [],
+				"libobs.show_scene_item.Color Source": [],
+				"libobs.hide_scene_item.Color Source": [],
+				"libobs.show_scene_item.Group Anime Red": [],
+				"libobs.hide_scene_item.Group Anime Red": [],
+				"libobs.show_scene_item.Group Anime Blue": [],
+				"libobs.hide_scene_item.Group Anime Blue": [],
+				"libobs.show_scene_item.Group": [],
+				"libobs.hide_scene_item.Group": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Scene Code",
+			"uuid": "0e4d947a-7c0d-4578-aba1-a881706cbcc7",
+			"id": "scene",
+			"versioned_id": "scene",
+			"settings": {
+				"id_counter": 3,
+				"custom_size": false,
+				"items": [
+					{
+						"name": "VSCode",
+						"source_uuid": "6771e531-b397-4e5d-b650-d8cd243811a1",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 64.0,
+							"y": 27.0
+						},
+						"scale": {
+							"x": 0.89173585176467896,
+							"y": 0.89165365695953369
+						},
+						"align": 5,
+						"bounds_type": 5,
+						"bounds_align": 5,
+						"bounds": {
+							"x": 2535.0,
+							"y": 1440.0
+						},
+						"crop_left": 0,
+						"crop_top": 46,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 1,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Chrome",
+						"source_uuid": "299b4dc8-1f5c-43a0-85f5-664b2444ca9f",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 475.696533203125
+						},
+						"scale": {
+							"x": 0.59565389156341553,
+							"y": 0.59542262554168701
+						},
+						"align": 5,
+						"bounds_type": 5,
+						"bounds_align": 9,
+						"bounds": {
+							"x": 1540.0,
+							"y": 961.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 24,
+						"crop_bottom": 0,
+						"id": 2,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "additive",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Terminal",
+						"source_uuid": "6eda37f3-bf23-4ddb-abfb-ccbb41220fa9",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 2560.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 0.59216141700744629,
+							"y": 0.59172403812408447
+						},
+						"align": 6,
+						"bounds_type": 5,
+						"bounds_align": 9,
+						"bounds": {
+							"x": 1026.0,
+							"y": 1440.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 3,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "additive",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"OBSBasic.SelectScene": [],
+				"libobs.show_scene_item.VSCode": [],
+				"libobs.hide_scene_item.VSCode": [],
+				"libobs.show_scene_item.Chrome": [],
+				"libobs.hide_scene_item.Chrome": [],
+				"libobs.show_scene_item.Terminal": [],
+				"libobs.hide_scene_item.Terminal": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {},
+			"filters": [
+				{
+					"prev_ver": 486604803,
+					"name": "Color Correction",
+					"uuid": "911c4a05-d15f-42fc-ab80-9d159e263c97",
+					"id": "color_filter",
+					"versioned_id": "color_filter_v2",
+					"settings": {
+						"gamma": -0.070000000000000007,
+						"contrast": 0.040000000000000001,
+						"saturation": -0.029999999999999999,
+						"brightness": 0.0
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				}
+			]
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Scene Visualizer",
+			"uuid": "8272f1a2-c6e5-4ad3-9ae4-e008e233a22d",
+			"id": "scene",
+			"versioned_id": "scene",
+			"settings": {
+				"id_counter": 4,
+				"custom_size": false,
+				"items": [
+					{
+						"name": "Color Source 2",
+						"source_uuid": "3b9456cb-4a1d-42e3-ad40-842291f718a2",
+						"visible": false,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 1.3333333730697632,
+							"y": 1.3333333730697632
+						},
+						"align": 5,
+						"bounds_type": 0,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 4,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "multiply",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Visualizer",
+						"source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 1280.0,
+							"y": 115.0
+						},
+						"scale": {
+							"x": 1.1599456071853638,
+							"y": 0.17937573790550232
+						},
+						"align": 4,
+						"bounds_type": 5,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 371.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 1,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "additive",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Visualizer",
+						"source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 1280.0,
+							"y": 98.0
+						},
+						"scale": {
+							"x": 1.0421385765075684,
+							"y": 0.16115792095661163
+						},
+						"align": 4,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 451.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 186,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Visualizer Red",
+						"source_uuid": "330e7b52-bacb-4168-8734-cccf992ef6ec",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 1280.0,
+							"y": 300.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 0,
+						"bounds_type": 4,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2300.0,
+							"y": 371.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 3,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "additive",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"collapsed": true
+						}
+					},
+					{
+						"name": "Visualizer",
+						"source_uuid": "ef40192a-c406-40cb-b506-18575345fee2",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 1280.0,
+							"y": 114.0
+						},
+						"scale": {
+							"x": 0.96057975292205811,
+							"y": 0.14854550361633301
+						},
+						"align": 4,
+						"bounds_type": 3,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2560.0,
+							"y": 451.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 185,
+						"group_item_backup": true,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "normal",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {}
+					},
+					{
+						"name": "Visualizer Blue",
+						"source_uuid": "48f88116-28a7-4b5d-8e40-91efa789a85d",
+						"visible": true,
+						"locked": false,
+						"rot": 0.0,
+						"pos": {
+							"x": 1280.0,
+							"y": 300.0
+						},
+						"scale": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"align": 0,
+						"bounds_type": 4,
+						"bounds_align": 0,
+						"bounds": {
+							"x": 2120.0,
+							"y": 371.0
+						},
+						"crop_left": 0,
+						"crop_top": 0,
+						"crop_right": 0,
+						"crop_bottom": 0,
+						"id": 2,
+						"group_item_backup": false,
+						"scale_filter": "disable",
+						"blend_method": "default",
+						"blend_type": "additive",
+						"show_transition": {
+							"duration": 0
+						},
+						"hide_transition": {
+							"duration": 0
+						},
+						"private_settings": {
+							"collapsed": true
+						}
+					}
+				]
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {
+				"OBSBasic.SelectScene": [],
+				"libobs.show_scene_item.Color Source 2": [],
+				"libobs.hide_scene_item.Color Source 2": [],
+				"libobs.show_scene_item.Visualizer": [],
+				"libobs.hide_scene_item.Visualizer": [],
+				"libobs.show_scene_item.Visualizer Red": [],
+				"libobs.hide_scene_item.Visualizer Red": [],
+				"libobs.show_scene_item.Visualizer Blue": [],
+				"libobs.hide_scene_item.Visualizer Blue": []
+			},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {},
+			"filters": [
+				{
+					"prev_ver": 486604803,
+					"name": "Ashmanix Blur Filter",
+					"uuid": "05ca77a8-9dc5-4f7a-97d9-cfe526dbe5ac",
+					"id": "ashmanix_plugin_blur_filter",
+					"versioned_id": "ashmanix_plugin_blur_filter",
+					"settings": {
+						"blur_size": 0.0,
+						"blur_type": 0
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": false,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Color Correction",
+					"uuid": "6737ca41-d818-41d0-80c9-bab8a68f9c70",
+					"id": "color_filter",
+					"versioned_id": "color_filter_v2",
+					"settings": {
+						"gamma": -1.95,
+						"contrast": -1.27,
+						"brightness": 0.0,
+						"saturation": -0.38
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				}
+			]
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Terminal",
+			"uuid": "6eda37f3-bf23-4ddb-abfb-ccbb41220fa9",
+			"id": "window_capture",
+			"versioned_id": "window_capture",
+			"settings": {
+				"priority": 2,
+				"window": "pwsh in Developer:CASCADIA_HOSTING_WINDOW_CLASS:WindowsTerminal.exe",
+				"method": 2,
+				"cursor": true,
+				"force_sdr": false,
+				"compatibility": true,
+				"client_area": true
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Text",
+			"uuid": "32ca732a-14ac-4485-8e84-595c95fbef58",
+			"id": "text_gdiplus",
+			"versioned_id": "text_gdiplus_v2",
+			"settings": {
+				"text": "Operator is present / ",
+				"font": {
+					"face": "SauceCodePro NFM Medium",
+					"style": "Regular",
+					"size": 48,
+					"flags": 0
+				}
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "Visualizer",
+			"uuid": "ef40192a-c406-40cb-b506-18575345fee2",
+			"id": "spectralizer",
+			"versioned_id": "spectralizer",
+			"settings": {
+				"undo_sname": "Spectralizer",
+				"stereo_space": -2,
+				"color": 4294967295,
+				"detail": 22,
+				"stereo": true,
+				"audio_source": "Audio Output Capture",
+				"filter_mode": 2,
+				"filter_strength": 1.5,
+				"gravity": 0.81999999999999995,
+				"sgs_passes": 1,
+				"sgs_points": 32,
+				"width": 86,
+				"height": 2533,
+				"bar_space": 15,
+				"use_auto_scale": false,
+				"scale_size": 0.48999999999999999,
+				"scale_boost": 77.471999999999994,
+				"log_freq_scale": true,
+				"log_freq_scale_start": 90.700000000000003,
+				"log_freq_scale_use_hpf": true,
+				"log_freq_scale_hpf_curve": 72.400000000000006,
+				"round_corners": false,
+				"corner_points": 2,
+				"corner_radius": 100.0
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {},
+			"filters": [
+				{
+					"prev_ver": 486604803,
+					"name": "Ashmanix Blur Filter",
+					"uuid": "4a5595e4-5131-4f6e-868f-362a95fb2140",
+					"id": "ashmanix_plugin_blur_filter",
+					"versioned_id": "ashmanix_plugin_blur_filter",
+					"settings": {
+						"blur_size": 0.0,
+						"blur_type": 0
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": false,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Blur",
+					"uuid": "21f2a5e2-dfe0-421f-b0af-85a0bc134901",
+					"id": "streamfx-filter-blur",
+					"versioned_id": "streamfx-filter-blur",
+					"settings": {
+						"Version": 1688,
+						"Commit": "g63bc964e",
+						"Filter.Blur.Type": "dual_filtering",
+						"Filter.Blur.SubType": "area",
+						"Filter.Blur.Size": 2.0,
+						"Filter.Blur.Angle": -180.0,
+						"Filter.Blur.Center.X": 50.0,
+						"Filter.Blur.Center.Y": 50.0,
+						"Filter.Blur.StepScale": false,
+						"Filter.Blur.StepScale.X": 114.47,
+						"Filter.Blur.StepScale.Y": 515.07000000000005,
+						"Filter.Blur.Mask": false,
+						"Filter.Blur.Mask.Type": 2,
+						"Filter.Blur.Mask.Source": "Anime Red",
+						"Filter.Blur.Mask.Color": 4294901777
+					},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				},
+				{
+					"prev_ver": 486604803,
+					"name": "Color Correction",
+					"uuid": "3435a05a-2dbe-4ea1-aaf9-33c7764efa3c",
+					"id": "color_filter",
+					"versioned_id": "color_filter_v2",
+					"settings": {},
+					"mixers": 0,
+					"sync": 0,
+					"flags": 0,
+					"volume": 1.0,
+					"balance": 0.5,
+					"enabled": true,
+					"muted": false,
+					"push-to-mute": false,
+					"push-to-mute-delay": 0,
+					"push-to-talk": false,
+					"push-to-talk-delay": 0,
+					"hotkeys": {},
+					"deinterlace_mode": 0,
+					"deinterlace_field_order": 0,
+					"monitoring_type": 0,
+					"private_settings": {}
+				}
+			]
+		},
+		{
+			"prev_ver": 486604803,
+			"name": "VSCode",
+			"uuid": "6771e531-b397-4e5d-b650-d8cd243811a1",
+			"id": "window_capture",
+			"versioned_id": "window_capture",
+			"settings": {
+				"window": "D#3A\\Developer - D#3A\\Developer\\app2\\baxast\\astro-critters\\Source - Index.ts:Chrome_WidgetWin_1:Code - Insiders.exe",
+				"priority": 2,
+				"method": 2,
+				"force_sdr": false
+			},
+			"mixers": 0,
+			"sync": 0,
+			"flags": 0,
+			"volume": 1.0,
+			"balance": 0.5,
+			"enabled": true,
+			"muted": false,
+			"push-to-mute": false,
+			"push-to-mute-delay": 0,
+			"push-to-talk": false,
+			"push-to-talk-delay": 0,
+			"hotkeys": {},
+			"deinterlace_mode": 0,
+			"deinterlace_field_order": 0,
+			"monitoring_type": 0,
+			"private_settings": {}
+		}
+	]
 }
